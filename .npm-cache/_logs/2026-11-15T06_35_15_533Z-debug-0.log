@@ -1,0 +1,2482 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.9
+2 info using node@v22.23.3
+3 silly config load:file:C:\Users\Admin\AppData\Roaming\nvm\v22.23.3\node_modules\npm\npmrc
+4 silly config load:file:D:\Full Stack Apps\Assignment's\taskflowAssignment\client\.npmrc
+5 silly config load:file:C:\Users\Admin\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm install @tailwindcss/vite
+8 verbose argv "--cache" "..\\.npm-cache" "install" "--save-dev" "@tailwindcss/vite"
+9 verbose logfile logs-max:10 dir:D:\Full Stack Apps\Assignment's\taskflowAssignment\.npm-cache\_logs\2026-11-15T06_35_15_533Z-
+10 verbose logfile D:\Full Stack Apps\Assignment's\taskflowAssignment\.npm-cache\_logs\2026-11-15T06_35_15_533Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @tailwindcss/vite@^4.3.5
+15 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fvite cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fvite 741ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fvite set size:2424925 disposed:false
+18 silly fetch manifest vite@^8.3.6
+19 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/vite 142ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/vite set size:39037456 disposed:false
+22 silly fetch manifest @types/node@^24.19.2
+23 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 94ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11183996 disposed:false
+26 silly fetch manifest @vitejs/devtools@^0.7.1 || ^0.8.0
+27 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools 273ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools set size:338807 disposed:false
+30 silly fetch manifest @vitejs/devtools-oxc@^0.8.2
+31 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-oxc cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-oxc 789ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-oxc set size:89640 disposed:false
+34 silly fetch manifest @vitejs/devtools-rolldown@^0.8.2
+35 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-rolldown cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-rolldown 828ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-rolldown set size:246635 disposed:false
+38 silly fetch manifest @vitejs/devtools-vite@^0.8.2
+39 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-vite cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-vite 579ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-vite set size:175244 disposed:false
+42 silly fetch manifest @vitejs/devtools-vitest@^0.8.2
+43 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-vitest cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-vitest 242ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-vitest set size:63718 disposed:false
+46 silly fetch manifest vitest@*
+47 silly packumentCache full:https://registry.npmjs.org/vitest cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/vitest 228ms (cache revalidated)
+49 silly packumentCache full:https://registry.npmjs.org/vitest set size:2303922 disposed:false
+50 silly fetch manifest @edge-runtime/vm@*
+51 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/@edge-runtime%2fvm 49ms (cache revalidated)
+53 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm set size:269934 disposed:false
+54 silly fetch manifest @opentelemetry/api@^1.9.0
+55 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 47ms (cache revalidated)
+57 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:283794 disposed:false
+58 silly fetch manifest @vitest/browser-playwright@5.1.0
+59 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-playwright cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-playwright 583ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-playwright set size:176173 disposed:false
+62 silly fetch manifest playwright@*
+63 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/playwright 79ms (cache revalidated)
+65 silly packumentCache full:https://registry.npmjs.org/playwright set size:17042927 disposed:false
+66 silly fetch manifest @vitest/browser-preview@5.1.0
+67 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-preview cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-preview 841ms (cache revalidated)
+69 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-preview set size:168860 disposed:false
+70 silly fetch manifest @vitest/browser-webdriverio@^5.0.0-beta.5 || >=5.0.0
+71 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-webdriverio cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-webdriverio 241ms (cache revalidated)
+73 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-webdriverio set size:147097 disposed:false
+74 silly fetch manifest webdriverio@*
+75 silly packumentCache full:https://registry.npmjs.org/webdriverio cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/webdriverio 48ms (cache revalidated)
+77 silly packumentCache full:https://registry.npmjs.org/webdriverio set size:3307827 disposed:false
+78 silly fetch manifest puppeteer-core@>=24 <26
+79 silly packumentCache full:https://registry.npmjs.org/puppeteer-core cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/puppeteer-core 298ms (cache revalidated)
+81 silly packumentCache full:https://registry.npmjs.org/puppeteer-core set size:1611948 disposed:false
+82 silly fetch manifest @vitest/coverage-istanbul@5.1.0
+83 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-istanbul cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-istanbul 799ms (cache revalidated)
+85 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-istanbul set size:732160 disposed:false
+86 silly fetch manifest @vitest/coverage-v8@5.1.0
+87 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-v8 cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-v8 70ms (cache revalidated)
+89 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-v8 set size:568710 disposed:false
+90 silly fetch manifest @vitest/browser@5.1.0
+91 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser 495ms (cache revalidated)
+93 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser set size:837422 disposed:false
+94 silly fetch manifest @vitest/ui@5.1.0
+95 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/@vitest%2fui 336ms (cache revalidated)
+97 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui set size:1323154 disposed:false
+98 silly fetch manifest happy-dom@*
+99 silly packumentCache full:https://registry.npmjs.org/happy-dom cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/happy-dom 46ms (cache revalidated)
+101 silly packumentCache full:https://registry.npmjs.org/happy-dom set size:2570034 disposed:false
+102 silly fetch manifest jsdom@*
+103 silly packumentCache full:https://registry.npmjs.org/jsdom cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/jsdom 51ms (cache revalidated)
+105 silly packumentCache full:https://registry.npmjs.org/jsdom set size:1105705 disposed:false
+106 silly fetch manifest @napi-rs/canvas@^1.0.13
+107 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas 63ms (cache revalidated)
+109 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas set size:648786 disposed:false
+110 silly fetch manifest esbuild@^0.27.0 || ^0.28.0
+111 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/esbuild 186ms (cache revalidated)
+113 silly packumentCache full:https://registry.npmjs.org/esbuild set size:1264676 disposed:false
+114 silly fetch manifest jiti@>=1.21.0
+115 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/jiti 87ms (cache revalidated)
+117 silly packumentCache full:https://registry.npmjs.org/jiti set size:387989 disposed:false
+118 silly fetch manifest less@^4.0.0
+119 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/less 97ms (cache revalidated)
+121 silly packumentCache full:https://registry.npmjs.org/less set size:600260 disposed:false
+122 silly fetch manifest sass@^1.70.0
+123 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/sass 42ms (cache revalidated)
+125 silly packumentCache full:https://registry.npmjs.org/sass set size:774924 disposed:false
+126 silly fetch manifest sass-embedded@^1.70.0
+127 silly packumentCache full:https://registry.npmjs.org/sass-embedded cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/sass-embedded 45ms (cache revalidated)
+129 silly packumentCache full:https://registry.npmjs.org/sass-embedded set size:480728 disposed:false
+130 silly fetch manifest stylus@>=0.54.8
+131 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/stylus 37ms (cache revalidated)
+133 silly packumentCache full:https://registry.npmjs.org/stylus set size:286766 disposed:false
+134 silly fetch manifest sugarss@^5.0.0
+135 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/sugarss 40ms (cache revalidated)
+137 silly packumentCache full:https://registry.npmjs.org/sugarss set size:47036 disposed:false
+138 silly fetch manifest postcss@^8.3.3
+139 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+140 http cache https://registry.npmjs.org/postcss 7ms (cache hit)
+141 silly packumentCache full:https://registry.npmjs.org/postcss set size:783367 disposed:false
+142 silly fetch manifest terser@^5.16.0
+143 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/terser 39ms (cache revalidated)
+145 silly packumentCache full:https://registry.npmjs.org/terser set size:827672 disposed:false
+146 silly fetch manifest tsx@^4.8.1
+147 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/tsx 38ms (cache revalidated)
+149 silly packumentCache full:https://registry.npmjs.org/tsx set size:349770 disposed:false
+150 silly fetch manifest yaml@^2.4.2
+151 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/yaml 37ms (cache revalidated)
+153 silly packumentCache full:https://registry.npmjs.org/yaml set size:386415 disposed:false
+154 silly placeDep ROOT @tailwindcss/vite@4.3.5 REPLACE for: client@0.0.0 want: ^4.3.5
+155 silly fetch manifest @babel/core@^7.0.0-0
+156 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+157 http cache https://registry.npmjs.org/@babel%2fcore 14ms (cache hit)
+158 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:823241 disposed:false
+159 warn ERESOLVE overriding peer dependency {
+159 warn ERESOLVE   code: 'ERESOLVE',
+159 warn ERESOLVE   edge: {
+159 warn ERESOLVE     type: 'peer',
+159 warn ERESOLVE     name: '@babel/core',
+159 warn ERESOLVE     spec: '^7.0.0-0',
+159 warn ERESOLVE     error: 'INVALID',
+159 warn ERESOLVE     from: {
+159 warn ERESOLVE       name: '@babel/plugin-syntax-async-generators',
+159 warn ERESOLVE       version: '7.8.4',
+159 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-async-generators',
+159 warn ERESOLVE       isWorkspace: false,
+159 warn ERESOLVE       dependents: [Array]
+159 warn ERESOLVE     }
+159 warn ERESOLVE   },
+159 warn ERESOLVE   dep: {
+159 warn ERESOLVE     name: '@babel/core',
+159 warn ERESOLVE     version: '7.29.13',
+159 warn ERESOLVE     whileInstalling: {
+159 warn ERESOLVE       name: '@babel/plugin-syntax-async-generators',
+159 warn ERESOLVE       version: '7.8.4',
+159 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-async-generators"
+159 warn ERESOLVE     },
+159 warn ERESOLVE     location: 'node_modules/@babel/core',
+159 warn ERESOLVE     isWorkspace: false,
+159 warn ERESOLVE     dependents: [ [Object] ]
+159 warn ERESOLVE   },
+159 warn ERESOLVE   force: false,
+159 warn ERESOLVE   isMine: false,
+159 warn ERESOLVE   strictPeerDeps: false,
+159 warn ERESOLVE   current: {
+159 warn ERESOLVE     name: '@babel/core',
+159 warn ERESOLVE     version: '8.1.2',
+159 warn ERESOLVE     location: 'node_modules/@babel/core',
+159 warn ERESOLVE     isWorkspace: false,
+159 warn ERESOLVE     dependents: [
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+159 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+159 warn ERESOLVE     ]
+159 warn ERESOLVE   },
+159 warn ERESOLVE   peerConflict: {
+159 warn ERESOLVE     current: {
+159 warn ERESOLVE       name: '@babel/core',
+159 warn ERESOLVE       version: '8.1.2',
+159 warn ERESOLVE       location: 'node_modules/@babel/core',
+159 warn ERESOLVE       isWorkspace: false,
+159 warn ERESOLVE       dependents: [Array]
+159 warn ERESOLVE     },
+159 warn ERESOLVE     peer: {
+159 warn ERESOLVE       name: '@babel/core',
+159 warn ERESOLVE       version: '7.29.13',
+159 warn ERESOLVE       whileInstalling: [Object],
+159 warn ERESOLVE       location: 'node_modules/@babel/core',
+159 warn ERESOLVE       isWorkspace: false,
+159 warn ERESOLVE       dependents: [Array]
+159 warn ERESOLVE     }
+159 warn ERESOLVE   }
+159 warn ERESOLVE }
+160 warn ERESOLVE overriding peer dependency {
+160 warn ERESOLVE   code: 'ERESOLVE',
+160 warn ERESOLVE   edge: {
+160 warn ERESOLVE     type: 'peer',
+160 warn ERESOLVE     name: '@babel/core',
+160 warn ERESOLVE     spec: '^7.0.0-0',
+160 warn ERESOLVE     error: 'INVALID',
+160 warn ERESOLVE     from: {
+160 warn ERESOLVE       name: '@babel/plugin-syntax-bigint',
+160 warn ERESOLVE       version: '7.8.3',
+160 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-bigint',
+160 warn ERESOLVE       isWorkspace: false,
+160 warn ERESOLVE       dependents: [Array]
+160 warn ERESOLVE     }
+160 warn ERESOLVE   },
+160 warn ERESOLVE   dep: {
+160 warn ERESOLVE     name: '@babel/core',
+160 warn ERESOLVE     version: '7.29.13',
+160 warn ERESOLVE     whileInstalling: {
+160 warn ERESOLVE       name: '@babel/plugin-syntax-bigint',
+160 warn ERESOLVE       version: '7.8.3',
+160 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-bigint"
+160 warn ERESOLVE     },
+160 warn ERESOLVE     location: 'node_modules/@babel/core',
+160 warn ERESOLVE     isWorkspace: false,
+160 warn ERESOLVE     dependents: [ [Object] ]
+160 warn ERESOLVE   },
+160 warn ERESOLVE   force: false,
+160 warn ERESOLVE   isMine: false,
+160 warn ERESOLVE   strictPeerDeps: false,
+160 warn ERESOLVE   current: {
+160 warn ERESOLVE     name: '@babel/core',
+160 warn ERESOLVE     version: '8.1.2',
+160 warn ERESOLVE     location: 'node_modules/@babel/core',
+160 warn ERESOLVE     isWorkspace: false,
+160 warn ERESOLVE     dependents: [
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+160 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+160 warn ERESOLVE     ]
+160 warn ERESOLVE   },
+160 warn ERESOLVE   peerConflict: {
+160 warn ERESOLVE     current: {
+160 warn ERESOLVE       name: '@babel/core',
+160 warn ERESOLVE       version: '8.1.2',
+160 warn ERESOLVE       location: 'node_modules/@babel/core',
+160 warn ERESOLVE       isWorkspace: false,
+160 warn ERESOLVE       dependents: [Array]
+160 warn ERESOLVE     },
+160 warn ERESOLVE     peer: {
+160 warn ERESOLVE       name: '@babel/core',
+160 warn ERESOLVE       version: '7.29.13',
+160 warn ERESOLVE       whileInstalling: [Object],
+160 warn ERESOLVE       location: 'node_modules/@babel/core',
+160 warn ERESOLVE       isWorkspace: false,
+160 warn ERESOLVE       dependents: [Array]
+160 warn ERESOLVE     }
+160 warn ERESOLVE   }
+160 warn ERESOLVE }
+161 warn ERESOLVE overriding peer dependency {
+161 warn ERESOLVE   code: 'ERESOLVE',
+161 warn ERESOLVE   edge: {
+161 warn ERESOLVE     type: 'peer',
+161 warn ERESOLVE     name: '@babel/core',
+161 warn ERESOLVE     spec: '^7.0.0-0',
+161 warn ERESOLVE     error: 'INVALID',
+161 warn ERESOLVE     from: {
+161 warn ERESOLVE       name: '@babel/plugin-syntax-class-properties',
+161 warn ERESOLVE       version: '7.12.13',
+161 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-class-properties',
+161 warn ERESOLVE       isWorkspace: false,
+161 warn ERESOLVE       dependents: [Array]
+161 warn ERESOLVE     }
+161 warn ERESOLVE   },
+161 warn ERESOLVE   dep: {
+161 warn ERESOLVE     name: '@babel/core',
+161 warn ERESOLVE     version: '7.29.13',
+161 warn ERESOLVE     whileInstalling: {
+161 warn ERESOLVE       name: '@babel/plugin-syntax-class-properties',
+161 warn ERESOLVE       version: '7.12.13',
+161 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-class-properties"
+161 warn ERESOLVE     },
+161 warn ERESOLVE     location: 'node_modules/@babel/core',
+161 warn ERESOLVE     isWorkspace: false,
+161 warn ERESOLVE     dependents: [ [Object] ]
+161 warn ERESOLVE   },
+161 warn ERESOLVE   force: false,
+161 warn ERESOLVE   isMine: false,
+161 warn ERESOLVE   strictPeerDeps: false,
+161 warn ERESOLVE   current: {
+161 warn ERESOLVE     name: '@babel/core',
+161 warn ERESOLVE     version: '8.1.2',
+161 warn ERESOLVE     location: 'node_modules/@babel/core',
+161 warn ERESOLVE     isWorkspace: false,
+161 warn ERESOLVE     dependents: [
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+161 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+161 warn ERESOLVE     ]
+161 warn ERESOLVE   },
+161 warn ERESOLVE   peerConflict: {
+161 warn ERESOLVE     current: {
+161 warn ERESOLVE       name: '@babel/core',
+161 warn ERESOLVE       version: '8.1.2',
+161 warn ERESOLVE       location: 'node_modules/@babel/core',
+161 warn ERESOLVE       isWorkspace: false,
+161 warn ERESOLVE       dependents: [Array]
+161 warn ERESOLVE     },
+161 warn ERESOLVE     peer: {
+161 warn ERESOLVE       name: '@babel/core',
+161 warn ERESOLVE       version: '7.29.13',
+161 warn ERESOLVE       whileInstalling: [Object],
+161 warn ERESOLVE       location: 'node_modules/@babel/core',
+161 warn ERESOLVE       isWorkspace: false,
+161 warn ERESOLVE       dependents: [Array]
+161 warn ERESOLVE     }
+161 warn ERESOLVE   }
+161 warn ERESOLVE }
+162 warn ERESOLVE overriding peer dependency {
+162 warn ERESOLVE   code: 'ERESOLVE',
+162 warn ERESOLVE   edge: {
+162 warn ERESOLVE     type: 'peer',
+162 warn ERESOLVE     name: '@babel/core',
+162 warn ERESOLVE     spec: '^7.0.0-0',
+162 warn ERESOLVE     error: 'INVALID',
+162 warn ERESOLVE     from: {
+162 warn ERESOLVE       name: '@babel/plugin-syntax-class-static-block',
+162 warn ERESOLVE       version: '7.14.5',
+162 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-class-static-block',
+162 warn ERESOLVE       isWorkspace: false,
+162 warn ERESOLVE       dependents: [Array]
+162 warn ERESOLVE     }
+162 warn ERESOLVE   },
+162 warn ERESOLVE   dep: {
+162 warn ERESOLVE     name: '@babel/core',
+162 warn ERESOLVE     version: '7.29.13',
+162 warn ERESOLVE     whileInstalling: {
+162 warn ERESOLVE       name: '@babel/plugin-syntax-class-static-block',
+162 warn ERESOLVE       version: '7.14.5',
+162 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-class-static-block"
+162 warn ERESOLVE     },
+162 warn ERESOLVE     location: 'node_modules/@babel/core',
+162 warn ERESOLVE     isWorkspace: false,
+162 warn ERESOLVE     dependents: [ [Object] ]
+162 warn ERESOLVE   },
+162 warn ERESOLVE   force: false,
+162 warn ERESOLVE   isMine: false,
+162 warn ERESOLVE   strictPeerDeps: false,
+162 warn ERESOLVE   current: {
+162 warn ERESOLVE     name: '@babel/core',
+162 warn ERESOLVE     version: '8.1.2',
+162 warn ERESOLVE     location: 'node_modules/@babel/core',
+162 warn ERESOLVE     isWorkspace: false,
+162 warn ERESOLVE     dependents: [
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+162 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+162 warn ERESOLVE     ]
+162 warn ERESOLVE   },
+162 warn ERESOLVE   peerConflict: {
+162 warn ERESOLVE     current: {
+162 warn ERESOLVE       name: '@babel/core',
+162 warn ERESOLVE       version: '8.1.2',
+162 warn ERESOLVE       location: 'node_modules/@babel/core',
+162 warn ERESOLVE       isWorkspace: false,
+162 warn ERESOLVE       dependents: [Array]
+162 warn ERESOLVE     },
+162 warn ERESOLVE     peer: {
+162 warn ERESOLVE       name: '@babel/core',
+162 warn ERESOLVE       version: '7.29.13',
+162 warn ERESOLVE       whileInstalling: [Object],
+162 warn ERESOLVE       location: 'node_modules/@babel/core',
+162 warn ERESOLVE       isWorkspace: false,
+162 warn ERESOLVE       dependents: [Array]
+162 warn ERESOLVE     }
+162 warn ERESOLVE   }
+162 warn ERESOLVE }
+163 warn ERESOLVE overriding peer dependency {
+163 warn ERESOLVE   code: 'ERESOLVE',
+163 warn ERESOLVE   edge: {
+163 warn ERESOLVE     type: 'peer',
+163 warn ERESOLVE     name: '@babel/core',
+163 warn ERESOLVE     spec: '^7.0.0-0',
+163 warn ERESOLVE     error: 'INVALID',
+163 warn ERESOLVE     from: {
+163 warn ERESOLVE       name: '@babel/plugin-syntax-import-attributes',
+163 warn ERESOLVE       version: '7.29.7',
+163 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-import-attributes',
+163 warn ERESOLVE       isWorkspace: false,
+163 warn ERESOLVE       dependents: [Array]
+163 warn ERESOLVE     }
+163 warn ERESOLVE   },
+163 warn ERESOLVE   dep: {
+163 warn ERESOLVE     name: '@babel/core',
+163 warn ERESOLVE     version: '7.29.13',
+163 warn ERESOLVE     whileInstalling: {
+163 warn ERESOLVE       name: '@babel/plugin-syntax-import-attributes',
+163 warn ERESOLVE       version: '7.29.7',
+163 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-import-attributes"
+163 warn ERESOLVE     },
+163 warn ERESOLVE     location: 'node_modules/@babel/core',
+163 warn ERESOLVE     isWorkspace: false,
+163 warn ERESOLVE     dependents: [ [Object] ]
+163 warn ERESOLVE   },
+163 warn ERESOLVE   force: false,
+163 warn ERESOLVE   isMine: false,
+163 warn ERESOLVE   strictPeerDeps: false,
+163 warn ERESOLVE   current: {
+163 warn ERESOLVE     name: '@babel/core',
+163 warn ERESOLVE     version: '8.1.2',
+163 warn ERESOLVE     location: 'node_modules/@babel/core',
+163 warn ERESOLVE     isWorkspace: false,
+163 warn ERESOLVE     dependents: [
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+163 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+163 warn ERESOLVE     ]
+163 warn ERESOLVE   },
+163 warn ERESOLVE   peerConflict: {
+163 warn ERESOLVE     current: {
+163 warn ERESOLVE       name: '@babel/core',
+163 warn ERESOLVE       version: '8.1.2',
+163 warn ERESOLVE       location: 'node_modules/@babel/core',
+163 warn ERESOLVE       isWorkspace: false,
+163 warn ERESOLVE       dependents: [Array]
+163 warn ERESOLVE     },
+163 warn ERESOLVE     peer: {
+163 warn ERESOLVE       name: '@babel/core',
+163 warn ERESOLVE       version: '7.29.13',
+163 warn ERESOLVE       whileInstalling: [Object],
+163 warn ERESOLVE       location: 'node_modules/@babel/core',
+163 warn ERESOLVE       isWorkspace: false,
+163 warn ERESOLVE       dependents: [Array]
+163 warn ERESOLVE     }
+163 warn ERESOLVE   }
+163 warn ERESOLVE }
+164 warn ERESOLVE overriding peer dependency {
+164 warn ERESOLVE   code: 'ERESOLVE',
+164 warn ERESOLVE   edge: {
+164 warn ERESOLVE     type: 'peer',
+164 warn ERESOLVE     name: '@babel/core',
+164 warn ERESOLVE     spec: '^7.0.0-0',
+164 warn ERESOLVE     error: 'INVALID',
+164 warn ERESOLVE     from: {
+164 warn ERESOLVE       name: '@babel/plugin-syntax-import-meta',
+164 warn ERESOLVE       version: '7.10.4',
+164 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-import-meta',
+164 warn ERESOLVE       isWorkspace: false,
+164 warn ERESOLVE       dependents: [Array]
+164 warn ERESOLVE     }
+164 warn ERESOLVE   },
+164 warn ERESOLVE   dep: {
+164 warn ERESOLVE     name: '@babel/core',
+164 warn ERESOLVE     version: '7.29.13',
+164 warn ERESOLVE     whileInstalling: {
+164 warn ERESOLVE       name: '@babel/plugin-syntax-import-meta',
+164 warn ERESOLVE       version: '7.10.4',
+164 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-import-meta"
+164 warn ERESOLVE     },
+164 warn ERESOLVE     location: 'node_modules/@babel/core',
+164 warn ERESOLVE     isWorkspace: false,
+164 warn ERESOLVE     dependents: [ [Object] ]
+164 warn ERESOLVE   },
+164 warn ERESOLVE   force: false,
+164 warn ERESOLVE   isMine: false,
+164 warn ERESOLVE   strictPeerDeps: false,
+164 warn ERESOLVE   current: {
+164 warn ERESOLVE     name: '@babel/core',
+164 warn ERESOLVE     version: '8.1.2',
+164 warn ERESOLVE     location: 'node_modules/@babel/core',
+164 warn ERESOLVE     isWorkspace: false,
+164 warn ERESOLVE     dependents: [
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+164 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+164 warn ERESOLVE     ]
+164 warn ERESOLVE   },
+164 warn ERESOLVE   peerConflict: {
+164 warn ERESOLVE     current: {
+164 warn ERESOLVE       name: '@babel/core',
+164 warn ERESOLVE       version: '8.1.2',
+164 warn ERESOLVE       location: 'node_modules/@babel/core',
+164 warn ERESOLVE       isWorkspace: false,
+164 warn ERESOLVE       dependents: [Array]
+164 warn ERESOLVE     },
+164 warn ERESOLVE     peer: {
+164 warn ERESOLVE       name: '@babel/core',
+164 warn ERESOLVE       version: '7.29.13',
+164 warn ERESOLVE       whileInstalling: [Object],
+164 warn ERESOLVE       location: 'node_modules/@babel/core',
+164 warn ERESOLVE       isWorkspace: false,
+164 warn ERESOLVE       dependents: [Array]
+164 warn ERESOLVE     }
+164 warn ERESOLVE   }
+164 warn ERESOLVE }
+165 warn ERESOLVE overriding peer dependency {
+165 warn ERESOLVE   code: 'ERESOLVE',
+165 warn ERESOLVE   edge: {
+165 warn ERESOLVE     type: 'peer',
+165 warn ERESOLVE     name: '@babel/core',
+165 warn ERESOLVE     spec: '^7.0.0-0',
+165 warn ERESOLVE     error: 'INVALID',
+165 warn ERESOLVE     from: {
+165 warn ERESOLVE       name: '@babel/plugin-syntax-json-strings',
+165 warn ERESOLVE       version: '7.8.3',
+165 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-json-strings',
+165 warn ERESOLVE       isWorkspace: false,
+165 warn ERESOLVE       dependents: [Array]
+165 warn ERESOLVE     }
+165 warn ERESOLVE   },
+165 warn ERESOLVE   dep: {
+165 warn ERESOLVE     name: '@babel/core',
+165 warn ERESOLVE     version: '7.29.13',
+165 warn ERESOLVE     whileInstalling: {
+165 warn ERESOLVE       name: '@babel/plugin-syntax-json-strings',
+165 warn ERESOLVE       version: '7.8.3',
+165 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-json-strings"
+165 warn ERESOLVE     },
+165 warn ERESOLVE     location: 'node_modules/@babel/core',
+165 warn ERESOLVE     isWorkspace: false,
+165 warn ERESOLVE     dependents: [ [Object] ]
+165 warn ERESOLVE   },
+165 warn ERESOLVE   force: false,
+165 warn ERESOLVE   isMine: false,
+165 warn ERESOLVE   strictPeerDeps: false,
+165 warn ERESOLVE   current: {
+165 warn ERESOLVE     name: '@babel/core',
+165 warn ERESOLVE     version: '8.1.2',
+165 warn ERESOLVE     location: 'node_modules/@babel/core',
+165 warn ERESOLVE     isWorkspace: false,
+165 warn ERESOLVE     dependents: [
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+165 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+165 warn ERESOLVE     ]
+165 warn ERESOLVE   },
+165 warn ERESOLVE   peerConflict: {
+165 warn ERESOLVE     current: {
+165 warn ERESOLVE       name: '@babel/core',
+165 warn ERESOLVE       version: '8.1.2',
+165 warn ERESOLVE       location: 'node_modules/@babel/core',
+165 warn ERESOLVE       isWorkspace: false,
+165 warn ERESOLVE       dependents: [Array]
+165 warn ERESOLVE     },
+165 warn ERESOLVE     peer: {
+165 warn ERESOLVE       name: '@babel/core',
+165 warn ERESOLVE       version: '7.29.13',
+165 warn ERESOLVE       whileInstalling: [Object],
+165 warn ERESOLVE       location: 'node_modules/@babel/core',
+165 warn ERESOLVE       isWorkspace: false,
+165 warn ERESOLVE       dependents: [Array]
+165 warn ERESOLVE     }
+165 warn ERESOLVE   }
+165 warn ERESOLVE }
+166 warn ERESOLVE overriding peer dependency {
+166 warn ERESOLVE   code: 'ERESOLVE',
+166 warn ERESOLVE   edge: {
+166 warn ERESOLVE     type: 'peer',
+166 warn ERESOLVE     name: '@babel/core',
+166 warn ERESOLVE     spec: '^7.0.0-0',
+166 warn ERESOLVE     error: 'INVALID',
+166 warn ERESOLVE     from: {
+166 warn ERESOLVE       name: '@babel/plugin-syntax-logical-assignment-operators',
+166 warn ERESOLVE       version: '7.10.4',
+166 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-logical-assignment-operators',
+166 warn ERESOLVE       isWorkspace: false,
+166 warn ERESOLVE       dependents: [Array]
+166 warn ERESOLVE     }
+166 warn ERESOLVE   },
+166 warn ERESOLVE   dep: {
+166 warn ERESOLVE     name: '@babel/core',
+166 warn ERESOLVE     version: '7.29.13',
+166 warn ERESOLVE     whileInstalling: {
+166 warn ERESOLVE       name: '@babel/plugin-syntax-logical-assignment-operators',
+166 warn ERESOLVE       version: '7.10.4',
+166 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-logical-assignment-operators"
+166 warn ERESOLVE     },
+166 warn ERESOLVE     location: 'node_modules/@babel/core',
+166 warn ERESOLVE     isWorkspace: false,
+166 warn ERESOLVE     dependents: [ [Object] ]
+166 warn ERESOLVE   },
+166 warn ERESOLVE   force: false,
+166 warn ERESOLVE   isMine: false,
+166 warn ERESOLVE   strictPeerDeps: false,
+166 warn ERESOLVE   current: {
+166 warn ERESOLVE     name: '@babel/core',
+166 warn ERESOLVE     version: '8.1.2',
+166 warn ERESOLVE     location: 'node_modules/@babel/core',
+166 warn ERESOLVE     isWorkspace: false,
+166 warn ERESOLVE     dependents: [
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+166 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+166 warn ERESOLVE     ]
+166 warn ERESOLVE   },
+166 warn ERESOLVE   peerConflict: {
+166 warn ERESOLVE     current: {
+166 warn ERESOLVE       name: '@babel/core',
+166 warn ERESOLVE       version: '8.1.2',
+166 warn ERESOLVE       location: 'node_modules/@babel/core',
+166 warn ERESOLVE       isWorkspace: false,
+166 warn ERESOLVE       dependents: [Array]
+166 warn ERESOLVE     },
+166 warn ERESOLVE     peer: {
+166 warn ERESOLVE       name: '@babel/core',
+166 warn ERESOLVE       version: '7.29.13',
+166 warn ERESOLVE       whileInstalling: [Object],
+166 warn ERESOLVE       location: 'node_modules/@babel/core',
+166 warn ERESOLVE       isWorkspace: false,
+166 warn ERESOLVE       dependents: [Array]
+166 warn ERESOLVE     }
+166 warn ERESOLVE   }
+166 warn ERESOLVE }
+167 warn ERESOLVE overriding peer dependency {
+167 warn ERESOLVE   code: 'ERESOLVE',
+167 warn ERESOLVE   edge: {
+167 warn ERESOLVE     type: 'peer',
+167 warn ERESOLVE     name: '@babel/core',
+167 warn ERESOLVE     spec: '^7.0.0-0',
+167 warn ERESOLVE     error: 'INVALID',
+167 warn ERESOLVE     from: {
+167 warn ERESOLVE       name: '@babel/plugin-syntax-nullish-coalescing-operator',
+167 warn ERESOLVE       version: '7.8.3',
+167 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-nullish-coalescing-operator',
+167 warn ERESOLVE       isWorkspace: false,
+167 warn ERESOLVE       dependents: [Array]
+167 warn ERESOLVE     }
+167 warn ERESOLVE   },
+167 warn ERESOLVE   dep: {
+167 warn ERESOLVE     name: '@babel/core',
+167 warn ERESOLVE     version: '7.29.13',
+167 warn ERESOLVE     whileInstalling: {
+167 warn ERESOLVE       name: '@babel/plugin-syntax-nullish-coalescing-operator',
+167 warn ERESOLVE       version: '7.8.3',
+167 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-nullish-coalescing-operator"
+167 warn ERESOLVE     },
+167 warn ERESOLVE     location: 'node_modules/@babel/core',
+167 warn ERESOLVE     isWorkspace: false,
+167 warn ERESOLVE     dependents: [ [Object] ]
+167 warn ERESOLVE   },
+167 warn ERESOLVE   force: false,
+167 warn ERESOLVE   isMine: false,
+167 warn ERESOLVE   strictPeerDeps: false,
+167 warn ERESOLVE   current: {
+167 warn ERESOLVE     name: '@babel/core',
+167 warn ERESOLVE     version: '8.1.2',
+167 warn ERESOLVE     location: 'node_modules/@babel/core',
+167 warn ERESOLVE     isWorkspace: false,
+167 warn ERESOLVE     dependents: [
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+167 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+167 warn ERESOLVE     ]
+167 warn ERESOLVE   },
+167 warn ERESOLVE   peerConflict: {
+167 warn ERESOLVE     current: {
+167 warn ERESOLVE       name: '@babel/core',
+167 warn ERESOLVE       version: '8.1.2',
+167 warn ERESOLVE       location: 'node_modules/@babel/core',
+167 warn ERESOLVE       isWorkspace: false,
+167 warn ERESOLVE       dependents: [Array]
+167 warn ERESOLVE     },
+167 warn ERESOLVE     peer: {
+167 warn ERESOLVE       name: '@babel/core',
+167 warn ERESOLVE       version: '7.29.13',
+167 warn ERESOLVE       whileInstalling: [Object],
+167 warn ERESOLVE       location: 'node_modules/@babel/core',
+167 warn ERESOLVE       isWorkspace: false,
+167 warn ERESOLVE       dependents: [Array]
+167 warn ERESOLVE     }
+167 warn ERESOLVE   }
+167 warn ERESOLVE }
+168 warn ERESOLVE overriding peer dependency {
+168 warn ERESOLVE   code: 'ERESOLVE',
+168 warn ERESOLVE   edge: {
+168 warn ERESOLVE     type: 'peer',
+168 warn ERESOLVE     name: '@babel/core',
+168 warn ERESOLVE     spec: '^7.0.0-0',
+168 warn ERESOLVE     error: 'INVALID',
+168 warn ERESOLVE     from: {
+168 warn ERESOLVE       name: '@babel/plugin-syntax-numeric-separator',
+168 warn ERESOLVE       version: '7.10.4',
+168 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-numeric-separator',
+168 warn ERESOLVE       isWorkspace: false,
+168 warn ERESOLVE       dependents: [Array]
+168 warn ERESOLVE     }
+168 warn ERESOLVE   },
+168 warn ERESOLVE   dep: {
+168 warn ERESOLVE     name: '@babel/core',
+168 warn ERESOLVE     version: '7.29.13',
+168 warn ERESOLVE     whileInstalling: {
+168 warn ERESOLVE       name: '@babel/plugin-syntax-numeric-separator',
+168 warn ERESOLVE       version: '7.10.4',
+168 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-numeric-separator"
+168 warn ERESOLVE     },
+168 warn ERESOLVE     location: 'node_modules/@babel/core',
+168 warn ERESOLVE     isWorkspace: false,
+168 warn ERESOLVE     dependents: [ [Object] ]
+168 warn ERESOLVE   },
+168 warn ERESOLVE   force: false,
+168 warn ERESOLVE   isMine: false,
+168 warn ERESOLVE   strictPeerDeps: false,
+168 warn ERESOLVE   current: {
+168 warn ERESOLVE     name: '@babel/core',
+168 warn ERESOLVE     version: '8.1.2',
+168 warn ERESOLVE     location: 'node_modules/@babel/core',
+168 warn ERESOLVE     isWorkspace: false,
+168 warn ERESOLVE     dependents: [
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+168 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+168 warn ERESOLVE     ]
+168 warn ERESOLVE   },
+168 warn ERESOLVE   peerConflict: {
+168 warn ERESOLVE     current: {
+168 warn ERESOLVE       name: '@babel/core',
+168 warn ERESOLVE       version: '8.1.2',
+168 warn ERESOLVE       location: 'node_modules/@babel/core',
+168 warn ERESOLVE       isWorkspace: false,
+168 warn ERESOLVE       dependents: [Array]
+168 warn ERESOLVE     },
+168 warn ERESOLVE     peer: {
+168 warn ERESOLVE       name: '@babel/core',
+168 warn ERESOLVE       version: '7.29.13',
+168 warn ERESOLVE       whileInstalling: [Object],
+168 warn ERESOLVE       location: 'node_modules/@babel/core',
+168 warn ERESOLVE       isWorkspace: false,
+168 warn ERESOLVE       dependents: [Array]
+168 warn ERESOLVE     }
+168 warn ERESOLVE   }
+168 warn ERESOLVE }
+169 warn ERESOLVE overriding peer dependency {
+169 warn ERESOLVE   code: 'ERESOLVE',
+169 warn ERESOLVE   edge: {
+169 warn ERESOLVE     type: 'peer',
+169 warn ERESOLVE     name: '@babel/core',
+169 warn ERESOLVE     spec: '^7.0.0-0',
+169 warn ERESOLVE     error: 'INVALID',
+169 warn ERESOLVE     from: {
+169 warn ERESOLVE       name: '@babel/plugin-syntax-object-rest-spread',
+169 warn ERESOLVE       version: '7.8.3',
+169 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-object-rest-spread',
+169 warn ERESOLVE       isWorkspace: false,
+169 warn ERESOLVE       dependents: [Array]
+169 warn ERESOLVE     }
+169 warn ERESOLVE   },
+169 warn ERESOLVE   dep: {
+169 warn ERESOLVE     name: '@babel/core',
+169 warn ERESOLVE     version: '7.29.13',
+169 warn ERESOLVE     whileInstalling: {
+169 warn ERESOLVE       name: '@babel/plugin-syntax-object-rest-spread',
+169 warn ERESOLVE       version: '7.8.3',
+169 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-object-rest-spread"
+169 warn ERESOLVE     },
+169 warn ERESOLVE     location: 'node_modules/@babel/core',
+169 warn ERESOLVE     isWorkspace: false,
+169 warn ERESOLVE     dependents: [ [Object] ]
+169 warn ERESOLVE   },
+169 warn ERESOLVE   force: false,
+169 warn ERESOLVE   isMine: false,
+169 warn ERESOLVE   strictPeerDeps: false,
+169 warn ERESOLVE   current: {
+169 warn ERESOLVE     name: '@babel/core',
+169 warn ERESOLVE     version: '8.1.2',
+169 warn ERESOLVE     location: 'node_modules/@babel/core',
+169 warn ERESOLVE     isWorkspace: false,
+169 warn ERESOLVE     dependents: [
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+169 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+169 warn ERESOLVE     ]
+169 warn ERESOLVE   },
+169 warn ERESOLVE   peerConflict: {
+169 warn ERESOLVE     current: {
+169 warn ERESOLVE       name: '@babel/core',
+169 warn ERESOLVE       version: '8.1.2',
+169 warn ERESOLVE       location: 'node_modules/@babel/core',
+169 warn ERESOLVE       isWorkspace: false,
+169 warn ERESOLVE       dependents: [Array]
+169 warn ERESOLVE     },
+169 warn ERESOLVE     peer: {
+169 warn ERESOLVE       name: '@babel/core',
+169 warn ERESOLVE       version: '7.29.13',
+169 warn ERESOLVE       whileInstalling: [Object],
+169 warn ERESOLVE       location: 'node_modules/@babel/core',
+169 warn ERESOLVE       isWorkspace: false,
+169 warn ERESOLVE       dependents: [Array]
+169 warn ERESOLVE     }
+169 warn ERESOLVE   }
+169 warn ERESOLVE }
+170 warn ERESOLVE overriding peer dependency {
+170 warn ERESOLVE   code: 'ERESOLVE',
+170 warn ERESOLVE   edge: {
+170 warn ERESOLVE     type: 'peer',
+170 warn ERESOLVE     name: '@babel/core',
+170 warn ERESOLVE     spec: '^7.0.0-0',
+170 warn ERESOLVE     error: 'INVALID',
+170 warn ERESOLVE     from: {
+170 warn ERESOLVE       name: '@babel/plugin-syntax-optional-catch-binding',
+170 warn ERESOLVE       version: '7.8.3',
+170 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-optional-catch-binding',
+170 warn ERESOLVE       isWorkspace: false,
+170 warn ERESOLVE       dependents: [Array]
+170 warn ERESOLVE     }
+170 warn ERESOLVE   },
+170 warn ERESOLVE   dep: {
+170 warn ERESOLVE     name: '@babel/core',
+170 warn ERESOLVE     version: '7.29.13',
+170 warn ERESOLVE     whileInstalling: {
+170 warn ERESOLVE       name: '@babel/plugin-syntax-optional-catch-binding',
+170 warn ERESOLVE       version: '7.8.3',
+170 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-optional-catch-binding"
+170 warn ERESOLVE     },
+170 warn ERESOLVE     location: 'node_modules/@babel/core',
+170 warn ERESOLVE     isWorkspace: false,
+170 warn ERESOLVE     dependents: [ [Object] ]
+170 warn ERESOLVE   },
+170 warn ERESOLVE   force: false,
+170 warn ERESOLVE   isMine: false,
+170 warn ERESOLVE   strictPeerDeps: false,
+170 warn ERESOLVE   current: {
+170 warn ERESOLVE     name: '@babel/core',
+170 warn ERESOLVE     version: '8.1.2',
+170 warn ERESOLVE     location: 'node_modules/@babel/core',
+170 warn ERESOLVE     isWorkspace: false,
+170 warn ERESOLVE     dependents: [
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+170 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+170 warn ERESOLVE     ]
+170 warn ERESOLVE   },
+170 warn ERESOLVE   peerConflict: {
+170 warn ERESOLVE     current: {
+170 warn ERESOLVE       name: '@babel/core',
+170 warn ERESOLVE       version: '8.1.2',
+170 warn ERESOLVE       location: 'node_modules/@babel/core',
+170 warn ERESOLVE       isWorkspace: false,
+170 warn ERESOLVE       dependents: [Array]
+170 warn ERESOLVE     },
+170 warn ERESOLVE     peer: {
+170 warn ERESOLVE       name: '@babel/core',
+170 warn ERESOLVE       version: '7.29.13',
+170 warn ERESOLVE       whileInstalling: [Object],
+170 warn ERESOLVE       location: 'node_modules/@babel/core',
+170 warn ERESOLVE       isWorkspace: false,
+170 warn ERESOLVE       dependents: [Array]
+170 warn ERESOLVE     }
+170 warn ERESOLVE   }
+170 warn ERESOLVE }
+171 warn ERESOLVE overriding peer dependency {
+171 warn ERESOLVE   code: 'ERESOLVE',
+171 warn ERESOLVE   edge: {
+171 warn ERESOLVE     type: 'peer',
+171 warn ERESOLVE     name: '@babel/core',
+171 warn ERESOLVE     spec: '^7.0.0-0',
+171 warn ERESOLVE     error: 'INVALID',
+171 warn ERESOLVE     from: {
+171 warn ERESOLVE       name: '@babel/plugin-syntax-optional-chaining',
+171 warn ERESOLVE       version: '7.8.3',
+171 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-optional-chaining',
+171 warn ERESOLVE       isWorkspace: false,
+171 warn ERESOLVE       dependents: [Array]
+171 warn ERESOLVE     }
+171 warn ERESOLVE   },
+171 warn ERESOLVE   dep: {
+171 warn ERESOLVE     name: '@babel/core',
+171 warn ERESOLVE     version: '7.29.13',
+171 warn ERESOLVE     whileInstalling: {
+171 warn ERESOLVE       name: '@babel/plugin-syntax-optional-chaining',
+171 warn ERESOLVE       version: '7.8.3',
+171 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-optional-chaining"
+171 warn ERESOLVE     },
+171 warn ERESOLVE     location: 'node_modules/@babel/core',
+171 warn ERESOLVE     isWorkspace: false,
+171 warn ERESOLVE     dependents: [ [Object] ]
+171 warn ERESOLVE   },
+171 warn ERESOLVE   force: false,
+171 warn ERESOLVE   isMine: false,
+171 warn ERESOLVE   strictPeerDeps: false,
+171 warn ERESOLVE   current: {
+171 warn ERESOLVE     name: '@babel/core',
+171 warn ERESOLVE     version: '8.1.2',
+171 warn ERESOLVE     location: 'node_modules/@babel/core',
+171 warn ERESOLVE     isWorkspace: false,
+171 warn ERESOLVE     dependents: [
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+171 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+171 warn ERESOLVE     ]
+171 warn ERESOLVE   },
+171 warn ERESOLVE   peerConflict: {
+171 warn ERESOLVE     current: {
+171 warn ERESOLVE       name: '@babel/core',
+171 warn ERESOLVE       version: '8.1.2',
+171 warn ERESOLVE       location: 'node_modules/@babel/core',
+171 warn ERESOLVE       isWorkspace: false,
+171 warn ERESOLVE       dependents: [Array]
+171 warn ERESOLVE     },
+171 warn ERESOLVE     peer: {
+171 warn ERESOLVE       name: '@babel/core',
+171 warn ERESOLVE       version: '7.29.13',
+171 warn ERESOLVE       whileInstalling: [Object],
+171 warn ERESOLVE       location: 'node_modules/@babel/core',
+171 warn ERESOLVE       isWorkspace: false,
+171 warn ERESOLVE       dependents: [Array]
+171 warn ERESOLVE     }
+171 warn ERESOLVE   }
+171 warn ERESOLVE }
+172 warn ERESOLVE overriding peer dependency {
+172 warn ERESOLVE   code: 'ERESOLVE',
+172 warn ERESOLVE   edge: {
+172 warn ERESOLVE     type: 'peer',
+172 warn ERESOLVE     name: '@babel/core',
+172 warn ERESOLVE     spec: '^7.0.0-0',
+172 warn ERESOLVE     error: 'INVALID',
+172 warn ERESOLVE     from: {
+172 warn ERESOLVE       name: '@babel/plugin-syntax-private-property-in-object',
+172 warn ERESOLVE       version: '7.14.5',
+172 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-private-property-in-object',
+172 warn ERESOLVE       isWorkspace: false,
+172 warn ERESOLVE       dependents: [Array]
+172 warn ERESOLVE     }
+172 warn ERESOLVE   },
+172 warn ERESOLVE   dep: {
+172 warn ERESOLVE     name: '@babel/core',
+172 warn ERESOLVE     version: '7.29.13',
+172 warn ERESOLVE     whileInstalling: {
+172 warn ERESOLVE       name: '@babel/plugin-syntax-private-property-in-object',
+172 warn ERESOLVE       version: '7.14.5',
+172 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-private-property-in-object"
+172 warn ERESOLVE     },
+172 warn ERESOLVE     location: 'node_modules/@babel/core',
+172 warn ERESOLVE     isWorkspace: false,
+172 warn ERESOLVE     dependents: [ [Object] ]
+172 warn ERESOLVE   },
+172 warn ERESOLVE   force: false,
+172 warn ERESOLVE   isMine: false,
+172 warn ERESOLVE   strictPeerDeps: false,
+172 warn ERESOLVE   current: {
+172 warn ERESOLVE     name: '@babel/core',
+172 warn ERESOLVE     version: '8.1.2',
+172 warn ERESOLVE     location: 'node_modules/@babel/core',
+172 warn ERESOLVE     isWorkspace: false,
+172 warn ERESOLVE     dependents: [
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+172 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+172 warn ERESOLVE     ]
+172 warn ERESOLVE   },
+172 warn ERESOLVE   peerConflict: {
+172 warn ERESOLVE     current: {
+172 warn ERESOLVE       name: '@babel/core',
+172 warn ERESOLVE       version: '8.1.2',
+172 warn ERESOLVE       location: 'node_modules/@babel/core',
+172 warn ERESOLVE       isWorkspace: false,
+172 warn ERESOLVE       dependents: [Array]
+172 warn ERESOLVE     },
+172 warn ERESOLVE     peer: {
+172 warn ERESOLVE       name: '@babel/core',
+172 warn ERESOLVE       version: '7.29.13',
+172 warn ERESOLVE       whileInstalling: [Object],
+172 warn ERESOLVE       location: 'node_modules/@babel/core',
+172 warn ERESOLVE       isWorkspace: false,
+172 warn ERESOLVE       dependents: [Array]
+172 warn ERESOLVE     }
+172 warn ERESOLVE   }
+172 warn ERESOLVE }
+173 warn ERESOLVE overriding peer dependency {
+173 warn ERESOLVE   code: 'ERESOLVE',
+173 warn ERESOLVE   edge: {
+173 warn ERESOLVE     type: 'peer',
+173 warn ERESOLVE     name: '@babel/core',
+173 warn ERESOLVE     spec: '^7.0.0-0',
+173 warn ERESOLVE     error: 'INVALID',
+173 warn ERESOLVE     from: {
+173 warn ERESOLVE       name: '@babel/plugin-syntax-top-level-await',
+173 warn ERESOLVE       version: '7.14.5',
+173 warn ERESOLVE       location: 'node_modules/babel-preset-current-node-syntax/node_modules/@babel/plugin-syntax-top-level-await',
+173 warn ERESOLVE       isWorkspace: false,
+173 warn ERESOLVE       dependents: [Array]
+173 warn ERESOLVE     }
+173 warn ERESOLVE   },
+173 warn ERESOLVE   dep: {
+173 warn ERESOLVE     name: '@babel/core',
+173 warn ERESOLVE     version: '7.29.13',
+173 warn ERESOLVE     whileInstalling: {
+173 warn ERESOLVE       name: '@babel/plugin-syntax-top-level-await',
+173 warn ERESOLVE       version: '7.14.5',
+173 warn ERESOLVE       path: "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\babel-preset-current-node-syntax\\node_modules\\@babel\\plugin-syntax-top-level-await"
+173 warn ERESOLVE     },
+173 warn ERESOLVE     location: 'node_modules/@babel/core',
+173 warn ERESOLVE     isWorkspace: false,
+173 warn ERESOLVE     dependents: [ [Object] ]
+173 warn ERESOLVE   },
+173 warn ERESOLVE   force: false,
+173 warn ERESOLVE   isMine: false,
+173 warn ERESOLVE   strictPeerDeps: false,
+173 warn ERESOLVE   current: {
+173 warn ERESOLVE     name: '@babel/core',
+173 warn ERESOLVE     version: '8.1.2',
+173 warn ERESOLVE     location: 'node_modules/@babel/core',
+173 warn ERESOLVE     isWorkspace: false,
+173 warn ERESOLVE     dependents: [
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+173 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+173 warn ERESOLVE     ]
+173 warn ERESOLVE   },
+173 warn ERESOLVE   peerConflict: {
+173 warn ERESOLVE     current: {
+173 warn ERESOLVE       name: '@babel/core',
+173 warn ERESOLVE       version: '8.1.2',
+173 warn ERESOLVE       location: 'node_modules/@babel/core',
+173 warn ERESOLVE       isWorkspace: false,
+173 warn ERESOLVE       dependents: [Array]
+173 warn ERESOLVE     },
+173 warn ERESOLVE     peer: {
+173 warn ERESOLVE       name: '@babel/core',
+173 warn ERESOLVE       version: '7.29.13',
+173 warn ERESOLVE       whileInstalling: [Object],
+173 warn ERESOLVE       location: 'node_modules/@babel/core',
+173 warn ERESOLVE       isWorkspace: false,
+173 warn ERESOLVE       dependents: [Array]
+173 warn ERESOLVE     }
+173 warn ERESOLVE   }
+173 warn ERESOLVE }
+174 silly reify moves {}
+175 silly audit bulk request {
+175 silly audit   '@adobe/css-tools': [ '4.5.0' ],
+175 silly audit   '@asamuzakjp/css-color': [ '3.2.0' ],
+175 silly audit   '@babel/code-frame': [ '8.0.6', '7.29.7' ],
+175 silly audit   '@babel/compat-data': [ '8.1.2', '7.29.7' ],
+175 silly audit   '@babel/core': [ '8.1.2', '7.29.13' ],
+175 silly audit   '@babel/generator': [ '8.1.2', '7.29.14' ],
+175 silly audit   '@babel/helper-annotate-as-pure': [ '8.0.0' ],
+175 silly audit   '@babel/helper-compilation-targets': [ '8.0.7', '7.29.13' ],
+175 silly audit   '@babel/helper-create-class-features-plugin': [ '8.0.10' ],
+175 silly audit   '@babel/helper-create-regexp-features-plugin': [ '8.1.2' ],
+175 silly audit   '@babel/helper-define-polyfill-provider': [ '1.0.0' ],
+175 silly audit   '@babel/helper-globals': [ '8.0.6', '7.29.7' ],
+175 silly audit   '@babel/helper-member-expression-to-functions': [ '8.1.2' ],
+175 silly audit   '@babel/helper-module-imports': [ '8.0.0', '7.29.7' ],
+175 silly audit   '@babel/helper-module-transforms': [ '8.1.2', '7.29.14' ],
+175 silly audit   '@babel/helper-optimise-call-expression': [ '8.0.0' ],
+175 silly audit   '@babel/helper-plugin-utils': [ '8.0.1', '7.29.7' ],
+175 silly audit   '@babel/helper-remap-async-to-generator': [ '8.0.1' ],
+175 silly audit   '@babel/helper-replace-supers': [ '8.0.1' ],
+175 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '8.1.0' ],
+175 silly audit   '@babel/helper-string-parser': [ '8.1.2', '7.29.14' ],
+175 silly audit   '@babel/helper-validator-identifier': [ '8.0.6', '7.29.7' ],
+175 silly audit   '@babel/helper-validator-option': [ '8.0.0', '7.29.7' ],
+175 silly audit   '@babel/helper-wrap-function': [ '8.0.0' ],
+175 silly audit   '@babel/helpers': [ '8.1.2', '7.29.14' ],
+175 silly audit   '@babel/parser': [ '8.1.2', '7.29.14' ],
+175 silly audit   '@babel/plugin-bugfix-firefox-class-in-computed-class-key': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-bugfix-safari-class-field-initializer-scope': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-bugfix-safari-rest-destructuring-rhs-array': [ '8.0.6' ],
+175 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-syntax-jsx': [ '8.0.1', '7.29.7' ],
+175 silly audit   '@babel/plugin-syntax-typescript': [ '8.0.3', '7.29.7' ],
+175 silly audit   '@babel/plugin-transform-arrow-functions': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-async-generator-functions': [ '8.0.6' ],
+175 silly audit   '@babel/plugin-transform-async-to-generator': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-block-scoping': [ '8.0.10' ],
+175 silly audit   '@babel/plugin-transform-class-properties': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-class-static-block': [ '8.1.2' ],
+175 silly audit   '@babel/plugin-transform-classes': [ '8.1.0' ],
+175 silly audit   '@babel/plugin-transform-computed-properties': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-destructuring': [ '8.0.5' ],
+175 silly audit   '@babel/plugin-transform-dotall-regex': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-duplicate-keys': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-duplicate-named-capturing-groups-regex': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-dynamic-import': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-explicit-resource-management': [ '8.0.5' ],
+175 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '8.1.2' ],
+175 silly audit   '@babel/plugin-transform-export-namespace-from': [ '8.1.0' ],
+175 silly audit   '@babel/plugin-transform-for-of': [ '8.0.7' ],
+175 silly audit   '@babel/plugin-transform-function-name': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-json-strings': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-literals': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-logical-assignment-operators': [ '8.1.2' ],
+175 silly audit   '@babel/plugin-transform-member-expression-literals': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-modules-amd': [ '8.1.2' ],
+175 silly audit   '@babel/plugin-transform-modules-commonjs': [ '8.1.2' ],
+175 silly audit   '@babel/plugin-transform-modules-systemjs': [ '8.1.0' ],
+175 silly audit   '@babel/plugin-transform-modules-umd': [ '8.1.2' ],
+175 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-new-target': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-nullish-coalescing-operator': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-numeric-separator': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-object-rest-spread': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-object-super': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-optional-catch-binding': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-optional-chaining': [ '8.0.5' ],
+175 silly audit   '@babel/plugin-transform-parameters': [ '8.0.5' ],
+175 silly audit   '@babel/plugin-transform-private-methods': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-private-property-in-object': [ '8.0.5' ],
+175 silly audit   '@babel/plugin-transform-property-literals': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-react-display-name': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-react-jsx': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-react-jsx-development': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-react-pure-annotations': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-regenerator': [ '8.1.2' ],
+175 silly audit   '@babel/plugin-transform-regexp-modifiers': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-reserved-words': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-shorthand-properties': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-spread': [ '8.0.8' ],
+175 silly audit   '@babel/plugin-transform-sticky-regex': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-template-literals': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-typeof-symbol': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-typescript': [ '8.0.6' ],
+175 silly audit   '@babel/plugin-transform-unicode-escapes': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-unicode-property-regex': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-unicode-regex': [ '8.0.1' ],
+175 silly audit   '@babel/plugin-transform-unicode-sets-regex': [ '8.0.1' ],
+175 silly audit   '@babel/preset-env': [ '8.0.7' ],
+175 silly audit   '@babel/preset-modules': [ '0.2.0' ],
+175 silly audit   '@babel/preset-react': [ '8.0.1' ],
+175 silly audit   '@babel/preset-typescript': [ '8.0.7' ],
+175 silly audit   '@babel/runtime': [ '7.29.14' ],
+175 silly audit   '@babel/template': [ '8.1.2', '7.29.7' ],
+175 silly audit   '@babel/traverse': [ '8.1.2', '7.29.14' ],
+175 silly audit   '@babel/types': [ '8.1.2', '7.29.14' ],
+175 silly audit   '@bcoe/v8-coverage': [ '0.2.3' ],
+175 silly audit   '@csstools/color-helpers': [ '5.1.0' ],
+175 silly audit   '@csstools/css-calc': [ '2.1.4' ],
+175 silly audit   '@csstools/css-color-parser': [ '3.1.0' ],
+175 silly audit   '@csstools/css-parser-algorithms': [ '3.0.5' ],
+175 silly audit   '@csstools/css-tokenizer': [ '3.0.4' ],
+175 silly audit   '@emnapi/core': [ '2.0.0-beta.2', '1.11.3' ],
+175 silly audit   '@emnapi/runtime': [ '2.0.0-beta.2', '1.11.3' ],
+175 silly audit   '@emnapi/wasi-threads': [ '2.2.0', '1.2.3' ],
+175 silly audit   '@hookform/resolvers': [ '7.0.6' ],
+175 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+175 silly audit   'ansi-regex': [ '6.6.0', '5.0.1' ],
+175 silly audit   'ansi-styles': [ '6.2.3', '5.2.0', '4.3.0' ],
+175 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+175 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+175 silly audit   'strip-ansi': [ '7.2.0', '6.0.1' ],
+175 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+175 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+175 silly audit   '@istanbuljs/schema': [ '0.1.6' ],
+175 silly audit   '@jest/console': [ '30.5.2' ],
+175 silly audit   '@jest/core': [ '30.5.2' ],
+175 silly audit   'pretty-format': [ '30.5.1', '27.5.1' ],
+175 silly audit   '@jest/diff-sequences': [ '30.5.0' ],
+175 silly audit   '@jest/environment': [ '30.5.2' ],
+175 silly audit   '@jest/environment-jsdom-abstract': [ '30.5.2' ],
+175 silly audit   '@jest/expect': [ '30.5.2' ],
+175 silly audit   '@jest/expect-utils': [ '30.5.2' ],
+175 silly audit   '@jest/fake-timers': [ '30.5.2' ],
+175 silly audit   '@jest/get-type': [ '30.5.0' ],
+175 silly audit   '@jest/globals': [ '30.5.2' ],
+175 silly audit   '@jest/pattern': [ '30.5.0' ],
+175 silly audit   'react-is': [ '18.3.1', '19.3.1', '17.0.2' ],
+175 silly audit   '@jest/reporters': [ '30.5.2' ],
+175 silly audit   '@jest/schemas': [ '30.5.0' ],
+175 silly audit   '@jest/snapshot-utils': [ '30.5.1' ],
+175 silly audit   '@jest/source-map': [ '30.5.2' ],
+175 silly audit   '@jest/test-result': [ '30.5.2' ],
+175 silly audit   '@jest/test-sequencer': [ '30.5.2' ],
+175 silly audit   '@jest/transform': [ '30.5.2' ],
+175 silly audit   '@jridgewell/gen-mapping': [ '0.3.13', '0.4.0-beta.0' ],
+175 silly audit   'js-tokens': [ '4.0.0', '10.0.0' ],
+175 silly audit   'lru-cache': [ '5.1.1', '10.4.3', '11.5.3' ],
+175 silly audit   semver: [ '6.3.2', '7.8.6' ],
+175 silly audit   '@jest/types': [ '30.5.1' ],
+175 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+175 silly audit   '@jridgewell/resolve-uri': [ '3.1.3' ],
+175 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+175 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+175 silly audit   '@napi-rs/wasm-runtime': [ '1.2.6', '1.2.2' ],
+175 silly audit   '@oxc-project/types': [ '0.156.0' ],
+175 silly audit   '@oxlint/binding-android-arm-eabi': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-android-arm64': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-darwin-arm64': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-darwin-x64': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-freebsd-x64': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-arm-gnueabihf': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-arm-musleabihf': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-arm64-gnu': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-arm64-musl': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-ppc64-gnu': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-riscv64-gnu': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-riscv64-musl': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-s390x-gnu': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-x64-gnu': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-linux-x64-musl': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-openharmony-arm64': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-win32-arm64-msvc': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-win32-ia32-msvc': [ '1.93.0' ],
+175 silly audit   '@oxlint/binding-win32-x64-msvc': [ '1.93.0' ],
+175 silly audit   '@parcel/watcher': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-android-arm64': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-darwin-arm64': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-darwin-x64': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-freebsd-x64': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-linux-arm-glibc': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-linux-arm-musl': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-linux-arm64-glibc': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-linux-arm64-musl': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-linux-x64-glibc': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-linux-x64-musl': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-win32-arm64': [ '2.6.0' ],
+175 silly audit   '@parcel/watcher-win32-x64': [ '2.6.0' ],
+175 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+175 silly audit   '@pkgr/core': [ '0.3.6' ],
+175 silly audit   '@rolldown/binding-android-arm-eabi': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-android-arm64': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-darwin-arm64': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-darwin-x64': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-freebsd-x64': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.2.19' ],
+175 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.2.19' ],
+175 silly audit   '@rolldown/pluginutils': [ '1.1.1' ],
+175 silly audit   '@sinclair/typebox': [ '0.34.52' ],
+175 silly audit   '@sinonjs/commons': [ '3.0.1' ],
+175 silly audit   '@sinonjs/fake-timers': [ '15.4.0' ],
+175 silly audit   '@standard-schema/utils': [ '0.3.0' ],
+175 silly audit   '@tailwindcss/node': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.3.5' ],
+175 silly audit   '@tybys/wasm-util': [ '0.10.4', '0.10.3' ],
+175 silly audit   tslib: [ '2.9.1', '2.8.1' ],
+175 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.3.5' ],
+175 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.3.5' ],
+175 silly audit   '@tanstack/query-core': [ '5.107.1' ],
+175 silly audit   '@tanstack/react-query': [ '5.107.1' ],
+175 silly audit   '@testing-library/dom': [ '10.4.2' ],
+175 silly audit   '@testing-library/jest-dom': [ '7.0.1' ],
+175 silly audit   'dom-accessibility-api': [ '0.6.3', '0.5.16' ],
+175 silly audit   '@testing-library/react': [ '16.3.3' ],
+175 silly audit   '@testing-library/user-event': [ '14.6.10' ],
+175 silly audit   '@types/aria-query': [ '5.0.4' ],
+175 silly audit   '@types/babel__core': [ '7.20.5' ],
+175 silly audit   '@types/babel__generator': [ '7.27.0' ],
+175 silly audit   '@types/babel__template': [ '7.4.4' ],
+175 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+175 silly audit   '@types/gensync': [ '1.0.5' ],
+175 silly audit   '@types/istanbul-lib-coverage': [ '2.0.6' ],
+175 silly audit   '@types/istanbul-lib-report': [ '3.0.3' ],
+175 silly audit   '@types/istanbul-reports': [ '3.0.4' ],
+175 silly audit   '@types/jest': [ '30.0.0' ],
+175 silly audit   '@types/jsdom': [ '21.1.7' ],
+175 silly audit   '@types/jsesc': [ '2.5.1' ],
+175 silly audit   '@types/node': [ '24.19.2' ],
+175 silly audit   '@types/react': [ '19.3.0' ],
+175 silly audit   '@types/react-dom': [ '19.3.0' ],
+175 silly audit   '@types/stack-utils': [ '2.0.3' ],
+175 silly audit   '@types/tough-cookie': [ '4.0.5' ],
+175 silly audit   '@types/yargs': [ '17.0.35' ],
+175 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+175 silly audit   '@typescript/typescript-aix-ppc64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-darwin-arm64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-darwin-x64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-freebsd-arm64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-freebsd-x64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-linux-arm': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-linux-arm64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-linux-loong64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-linux-mips64el': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-linux-ppc64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-linux-riscv64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-linux-s390x': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-linux-x64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-netbsd-arm64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-netbsd-x64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-openbsd-arm64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-openbsd-x64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-sunos-x64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-win32-arm64': [ '7.0.2' ],
+175 silly audit   '@typescript/typescript-win32-x64': [ '7.0.2' ],
+175 silly audit   '@ungap/structured-clone': [ '1.4.0' ],
+175 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-loong64-gnu': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-loong64-musl': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-openharmony-arm64': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.13.0' ],
+175 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.13.0' ],
+175 silly audit   '@vitejs/plugin-react': [ '6.3.0' ],
+175 silly audit   'agent-base': [ '6.0.2', '7.1.4' ],
+175 silly audit   'ansi-escapes': [ '4.3.2' ],
+175 silly audit   anymatch: [ '3.1.3' ],
+175 silly audit   picomatch: [ '2.3.2', '4.0.7' ],
+175 silly audit   argparse: [ '1.0.10' ],
+175 silly audit   'aria-query': [ '5.3.0' ],
+175 silly audit   asynckit: [ '0.4.0' ],
+175 silly audit   axios: [ '1.21.1' ],
+175 silly audit   'babel-jest': [ '30.5.2' ],
+175 silly audit   'babel-plugin-istanbul': [ '8.0.0' ],
+175 silly audit   'babel-plugin-jest-hoist': [ '30.5.0' ],
+175 silly audit   'babel-plugin-polyfill-corejs3': [ '1.0.0' ],
+175 silly audit   'babel-preset-current-node-syntax': [ '1.2.0' ],
+175 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+175 silly audit   '@babel/plugin-syntax-bigint': [ '7.8.3' ],
+175 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+175 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+175 silly audit   '@babel/plugin-syntax-import-attributes': [ '7.29.7' ],
+175 silly audit   '@babel/plugin-syntax-import-meta': [ '7.10.4' ],
+175 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+175 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+175 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+175 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+175 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+175 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+175 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+175 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+175 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+175 silly audit   'babel-preset-jest': [ '30.5.0' ],
+175 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+175 silly audit   'baseline-browser-mapping': [ '2.11.37' ],
+175 silly audit   'brace-expansion': [ '5.0.13', '2.1.8' ],
+175 silly audit   browserslist: [ '4.29.5' ],
+175 silly audit   bser: [ '2.1.2' ],
+175 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+175 silly audit   callsites: [ '3.1.0' ],
+175 silly audit   camelcase: [ '5.3.1', '6.3.0' ],
+175 silly audit   'caniuse-lite': [ '1.0.30001826' ],
+175 silly audit   chalk: [ '4.1.2' ],
+175 silly audit   'char-regex': [ '1.0.2' ],
+175 silly audit   'ci-info': [ '4.5.0' ],
+175 silly audit   'cjs-module-lexer': [ '2.3.0' ],
+175 silly audit   'class-variance-authority': [ '0.7.1' ],
+175 silly audit   cliui: [ '8.0.1' ],
+175 silly audit   clsx: [ '2.1.1' ],
+175 silly audit   co: [ '4.6.0' ],
+175 silly audit   'collect-v8-coverage': [ '1.0.3' ],
+175 silly audit   'color-convert': [ '2.0.1' ],
+175 silly audit   'color-name': [ '1.1.4' ],
+175 silly audit   'combined-stream': [ '1.0.8' ],
+175 silly audit   'convert-source-map': [ '2.0.0' ],
+175 silly audit   cookie: [ '1.1.1' ],
+175 silly audit   'core-js-compat': [ '3.51.0' ],
+175 silly audit   'cross-spawn': [ '7.0.6' ],
+175 silly audit   'css.escape': [ '1.5.1' ],
+175 silly audit   cssstyle: [ '4.6.0' ],
+175 silly audit   csstype: [ '3.2.3' ],
+175 silly audit   'data-urls': [ '5.0.0' ],
+175 silly audit   'date-fns': [ '4.4.0' ],
+175 silly audit   debug: [ '4.4.3' ],
+175 silly audit   'decimal.js': [ '10.6.0' ],
+175 silly audit   dedent: [ '1.7.2' ],
+175 silly audit   deepmerge: [ '4.3.1' ],
+175 silly audit   'delayed-stream': [ '1.0.0' ],
+175 silly audit   dequal: [ '2.0.3' ],
+175 silly audit   'detect-libc': [ '2.1.2' ],
+175 silly audit   'detect-newline': [ '3.1.0' ],
+175 silly audit   'dunder-proto': [ '1.0.1' ],
+175 silly audit   eastasianwidth: [ '0.2.0' ],
+175 silly audit   'electron-to-chromium': [ '1.5.486' ],
+175 silly audit   emittery: [ '0.13.1' ],
+175 silly audit   empathic: [ '2.1.0' ],
+175 silly audit   'enhanced-resolve': [ '5.27.0' ],
+175 silly audit   entities: [ '6.0.1' ],
+175 silly audit   'error-ex': [ '1.3.4' ],
+175 silly audit   'es-define-property': [ '1.0.1' ],
+175 silly audit   'es-errors': [ '1.3.0' ],
+175 silly audit   'es-module-lexer': [ '2.3.2' ],
+175 silly audit   'es-object-atoms': [ '1.1.2' ],
+175 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+175 silly audit   escalade: [ '3.2.0' ],
+175 silly audit   'escape-string-regexp': [ '2.0.0' ],
+175 silly audit   esprima: [ '4.0.1' ],
+175 silly audit   esutils: [ '2.0.3' ],
+175 silly audit   execa: [ '5.1.1' ],
+175 silly audit   'exit-x': [ '0.2.2' ],
+175 silly audit   expect: [ '30.5.2' ],
+175 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+175 silly audit   'fb-watchman': [ '2.0.4' ],
+175 silly audit   fdir: [ '6.5.0' ],
+175 silly audit   'find-up': [ '4.1.0' ],
+175 silly audit   flru: [ '1.0.2' ],
+175 silly audit   'follow-redirects': [ '1.16.3' ],
+175 silly audit   'foreground-child': [ '3.3.1' ],
+175 silly audit   'signal-exit': [ '4.1.0', '3.0.7' ],
+175 silly audit   'form-data': [ '4.0.6' ],
+175 silly audit   fsevents: [ '2.3.3' ],
+175 silly audit   'function-bind': [ '1.1.2' ],
+175 silly audit   gensync: [ '1.0.0-beta.2' ],
+175 silly audit   'get-caller-file': [ '2.0.5' ],
+175 silly audit   'get-intrinsic': [ '1.3.0' ],
+175 silly audit   'get-package-type': [ '0.1.0' ],
+175 silly audit   'get-proto': [ '1.0.1' ],
+175 silly audit   'get-stream': [ '6.0.1' ],
+175 silly audit   glob: [ '13.0.7', '10.5.0' ],
+175 silly audit   gopd: [ '1.2.0' ],
+175 silly audit   'graceful-fs': [ '4.2.12' ],
+175 silly audit   'has-flag': [ '4.0.0' ],
+175 silly audit   'has-symbols': [ '1.1.0' ],
+175 silly audit   'has-tostringtag': [ '1.0.2' ],
+175 silly audit   hasown: [ '2.0.4' ],
+175 silly audit   'html-encoding-sniffer': [ '4.0.0' ],
+175 silly audit   'html-escaper': [ '2.0.2' ],
+175 silly audit   'http-proxy-agent': [ '7.0.2' ],
+175 silly audit   'https-proxy-agent': [ '5.0.1', '7.0.6' ],
+175 silly audit   'human-signals': [ '2.1.0' ],
+175 silly audit   'iconv-lite': [ '0.6.3' ],
+175 silly audit   'import-local': [ '3.2.0' ],
+175 silly audit   'import-meta-resolve': [ '4.2.0' ],
+175 silly audit   imurmurhash: [ '0.1.4' ],
+175 silly audit   'indent-string': [ '4.0.0' ],
+175 silly audit   'is-arrayish': [ '0.2.1' ],
+175 silly audit   'is-extglob': [ '2.1.1' ],
+175 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+175 silly audit   'is-generator-fn': [ '2.1.0' ],
+175 silly audit   'is-glob': [ '4.0.3' ],
+175 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+175 silly audit   'is-stream': [ '2.0.1' ],
+175 silly audit   isexe: [ '2.0.0' ],
+175 silly audit   'istanbul-lib-coverage': [ '3.2.2' ],
+175 silly audit   'istanbul-lib-instrument': [ '6.0.3' ],
+175 silly audit   'istanbul-lib-report': [ '3.0.1' ],
+175 silly audit   'istanbul-lib-source-maps': [ '5.0.6' ],
+175 silly audit   'istanbul-reports': [ '3.2.0' ],
+175 silly audit   jackspeak: [ '3.4.3' ],
+175 silly audit   jest: [ '30.5.2' ],
+175 silly audit   'jest-changed-files': [ '30.5.1' ],
+175 silly audit   'jest-circus': [ '30.5.2' ],
+175 silly audit   'jest-cli': [ '30.5.2' ],
+175 silly audit   'jest-config': [ '30.5.2' ],
+175 silly audit   'jest-diff': [ '30.5.2' ],
+175 silly audit   'jest-docblock': [ '30.5.0' ],
+175 silly audit   'jest-each': [ '30.5.2' ],
+175 silly audit   'jest-environment-jsdom': [ '30.5.2' ],
+175 silly audit   'jest-environment-node': [ '30.5.2' ],
+175 silly audit   'jest-haste-map': [ '30.5.1' ],
+175 silly audit   'jest-leak-detector': [ '30.5.1' ],
+175 silly audit   'jest-matcher-utils': [ '30.5.2' ],
+175 silly audit   'jest-message-util': [ '30.5.1' ],
+175 silly audit   'jest-mock': [ '30.5.2' ],
+175 silly audit   'jest-regex-util': [ '30.5.0' ],
+175 silly audit   'jest-resolve': [ '30.5.1' ],
+175 silly audit   'jest-resolve-dependencies': [ '30.5.2' ],
+175 silly audit   'jest-runner': [ '30.5.2' ],
+175 silly audit   'jest-runtime': [ '30.5.2' ],
+175 silly audit   'jest-snapshot': [ '30.5.2' ],
+175 silly audit   'jest-util': [ '30.5.1' ],
+175 silly audit   'jest-validate': [ '30.5.1' ],
+175 silly audit   'jest-watcher': [ '30.5.2' ],
+175 silly audit   'jest-worker': [ '30.5.1' ],
+175 silly audit   'supports-color': [ '8.1.1', '7.2.0' ],
+175 silly audit   jiti: [ '2.7.0' ],
+175 silly audit   'js-yaml': [ '3.15.2' ],
+175 silly audit   jsdom: [ '26.1.0' ],
+175 silly audit   jsesc: [ '3.1.0' ],
+175 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+175 silly audit   json5: [ '2.2.3' ],
+175 silly audit   leven: [ '3.1.0' ],
+175 silly audit   lightningcss: [ '1.33.0' ],
+175 silly audit   'lightningcss-android-arm64': [ '1.33.0' ],
+175 silly audit   'lightningcss-darwin-arm64': [ '1.33.0' ],
+175 silly audit   'lightningcss-darwin-x64': [ '1.33.0' ],
+175 silly audit   'lightningcss-freebsd-x64': [ '1.33.0' ],
+175 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.33.0' ],
+175 silly audit   'lightningcss-linux-arm64-gnu': [ '1.33.0' ],
+175 silly audit   'lightningcss-linux-arm64-musl': [ '1.33.0' ],
+175 silly audit   'lightningcss-linux-x64-gnu': [ '1.33.0' ],
+175 silly audit   'lightningcss-linux-x64-musl': [ '1.33.0' ],
+175 silly audit   'lightningcss-win32-arm64-msvc': [ '1.33.0' ],
+175 silly audit   'lightningcss-win32-x64-msvc': [ '1.33.0' ],
+175 silly audit   'lines-and-columns': [ '1.2.4' ],
+175 silly audit   'locate-path': [ '5.0.0' ],
+175 silly audit   'lodash.debounce': [ '4.0.8' ],
+175 silly audit   'lucide-react': [ '1.73.0' ],
+175 silly audit   'lz-string': [ '1.5.0' ],
+175 silly audit   'magic-string': [ '1.4.5' ],
+175 silly audit   'make-dir': [ '4.0.0' ],
+175 silly audit   'math-intrinsics': [ '1.1.0' ],
+175 silly audit   'merge-stream': [ '2.0.0' ],
+175 silly audit   'mime-db': [ '1.52.0' ],
+175 silly audit   'mime-types': [ '2.1.35' ],
+175 silly audit   'mimic-fn': [ '2.1.0' ],
+175 silly audit   'min-indent': [ '1.0.1' ],
+175 silly audit   minimatch: [ '10.2.6', '9.0.9' ],
+175 silly audit   minipass: [ '7.1.3' ],
+175 silly audit   ms: [ '2.1.3' ],
+175 silly audit   nanoid: [ '3.3.20' ],
+175 silly audit   'napi-postinstall': [ '0.3.8' ],
+175 silly audit   'natural-compare': [ '1.4.0' ],
+175 silly audit   'node-addon-api': [ '7.1.1' ],
+175 silly audit   'node-int64': [ '0.4.0' ],
+175 silly audit   'node-releases': [ '2.0.64' ],
+175 silly audit   'normalize-path': [ '3.0.0' ],
+175 silly audit   'npm-run-path': [ '4.0.1' ],
+175 silly audit   nwsapi: [ '2.2.28' ],
+175 silly audit   obug: [ '3.0.0' ],
+175 silly audit   onetime: [ '5.1.2' ],
+175 silly audit   oxlint: [ '1.93.0' ],
+175 silly audit   'p-limit': [ '3.1.0', '2.3.0' ],
+175 silly audit   'p-locate': [ '4.1.0' ],
+175 silly audit   'p-try': [ '2.2.0' ],
+175 silly audit   'package-json-from-dist': [ '1.0.1' ],
+175 silly audit   'parse-json': [ '5.2.0' ],
+175 silly audit   parse5: [ '7.3.0' ],
+175 silly audit   'path-exists': [ '4.0.0' ],
+175 silly audit   'path-key': [ '3.1.1' ],
+175 silly audit   'path-scurry': [ '2.0.2', '1.11.1' ],
+175 silly audit   picocolors: [ '1.1.1' ],
+175 silly audit   pirates: [ '4.0.7' ],
+175 silly audit   'pkg-dir': [ '4.2.0' ],
+175 silly audit   postcss: [ '8.5.33' ],
+175 silly audit   'proxy-from-env': [ '2.1.0' ],
+175 silly audit   punycode: [ '2.3.1' ],
+175 silly audit   'pure-rand': [ '7.0.1' ],
+175 silly audit   react: [ '19.3.1' ],
+175 silly audit   'react-dom': [ '19.3.1' ],
+175 silly audit   'react-hook-form': [ '7.92.0' ],
+175 silly audit   'react-router': [ '7.18.5' ],
+175 silly audit   'react-router-dom': [ '7.18.5' ],
+175 silly audit   redent: [ '3.0.0' ],
+175 silly audit   regenerate: [ '1.5.0' ],
+175 silly audit   'regenerate-unicode-properties': [ '10.3.0' ],
+175 silly audit   'regexpu-core': [ '6.5.4' ],
+175 silly audit   regjsgen: [ '0.8.0' ],
+175 silly audit   regjsparser: [ '0.14.1' ],
+175 silly audit   'require-directory': [ '2.1.1' ],
+175 silly audit   'resolve-cwd': [ '3.0.0' ],
+175 silly audit   'resolve-from': [ '5.0.0' ],
+175 silly audit   rolldown: [ '1.2.19' ],
+175 silly audit   'rrweb-cssom': [ '0.8.0' ],
+175 silly audit   'safer-buffer': [ '2.1.2' ],
+175 silly audit   saxes: [ '6.0.0' ],
+175 silly audit   scheduler: [ '0.28.0' ],
+175 silly audit   'set-cookie-parser': [ '2.7.3' ],
+175 silly audit   'shebang-command': [ '2.0.0' ],
+175 silly audit   'shebang-regex': [ '3.0.0' ],
+175 silly audit   slash: [ '3.0.0' ],
+175 silly audit   sonner: [ '2.0.8' ],
+175 silly audit   'source-map-js': [ '1.2.2' ],
+175 silly audit   'sprintf-js': [ '1.0.3' ],
+175 silly audit   'stack-utils': [ '2.0.6' ],
+175 silly audit   'string-length': [ '4.0.2' ],
+175 silly audit   'strip-bom': [ '4.0.0' ],
+175 silly audit   'strip-final-newline': [ '2.0.0' ],
+175 silly audit   'strip-indent': [ '3.0.0' ],
+175 silly audit   'strip-json-comments': [ '3.1.1' ],
+175 silly audit   'symbol-tree': [ '3.2.4' ],
+175 silly audit   synckit: [ '0.11.13' ],
+175 silly audit   'tailwind-merge': [ '3.7.0' ],
+175 silly audit   tailwindcss: [ '4.3.5' ],
+175 silly audit   tapable: [ '2.3.4' ],
+175 silly audit   'test-exclude': [ '7.0.2' ],
+175 silly audit   tinyglobby: [ '0.2.17' ],
+175 silly audit   tldts: [ '6.1.86' ],
+175 silly audit   'tldts-core': [ '6.1.86' ],
+175 silly audit   'tough-cookie': [ '5.1.2' ],
+175 silly audit   tr46: [ '5.1.1' ],
+175 silly audit   'type-detect': [ '4.0.8' ],
+175 silly audit   'type-fest': [ '0.21.3' ],
+175 silly audit   typescript: [ '7.0.2' ],
+175 silly audit   'undici-types': [ '7.24.6' ],
+175 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.1' ],
+175 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+175 silly audit   'unicode-match-property-value-ecmascript': [ '2.2.1' ],
+175 silly audit   'unicode-property-aliases-ecmascript': [ '2.2.0' ],
+175 silly audit   'unrs-resolver': [ '1.13.0' ],
+175 silly audit   'update-browserslist-db': [ '1.3.4' ],
+175 silly audit   'v8-to-istanbul': [ '9.3.0' ],
+175 silly audit   verkit: [ '0.5.0' ],
+175 silly audit   vite: [ '8.3.8' ],
+175 silly audit   'w3c-xmlserializer': [ '5.0.0' ],
+175 silly audit   'webidl-conversions': [ '7.0.0' ],
+175 silly audit   'whatwg-encoding': [ '3.1.1' ],
+175 silly audit   'whatwg-mimetype': [ '4.0.0' ],
+175 silly audit   'whatwg-url': [ '14.2.0' ],
+175 silly audit   which: [ '2.0.2' ],
+175 silly audit   'write-file-atomic': [ '5.0.1' ],
+175 silly audit   ws: [ '8.23.0' ],
+175 silly audit   'xml-name-validator': [ '5.0.0' ],
+175 silly audit   xmlchars: [ '2.2.0' ],
+175 silly audit   y18n: [ '5.0.8' ],
+175 silly audit   yallist: [ '3.1.1' ],
+175 silly audit   yargs: [ '17.7.3' ],
+175 silly audit   'yargs-parser': [ '21.1.1' ],
+175 silly audit   'yocto-queue': [ '0.1.0' ],
+175 silly audit   zod: [ '4.6.7' ],
+175 silly audit   '@tailwindcss/vite': [ '4.3.5' ]
+175 silly audit }
+176 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-win32-arm64-msvc
+177 silly reify mark deleted [
+177 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-win32-arm64-msvc"
+177 silly reify ]
+178 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-linux-x64-musl
+179 silly reify mark deleted [
+179 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-linux-x64-musl"
+179 silly reify ]
+180 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-linux-x64-gnu
+181 silly reify mark deleted [
+181 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-linux-x64-gnu"
+181 silly reify ]
+182 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-linux-arm64-musl
+183 silly reify mark deleted [
+183 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-linux-arm64-musl"
+183 silly reify ]
+184 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-linux-arm64-gnu
+185 silly reify mark deleted [
+185 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-linux-arm64-gnu"
+185 silly reify ]
+186 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-linux-arm-gnueabihf
+187 silly reify mark deleted [
+187 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-linux-arm-gnueabihf"
+187 silly reify ]
+188 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-freebsd-x64
+189 silly reify mark deleted [
+189 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-freebsd-x64"
+189 silly reify ]
+190 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-darwin-x64
+191 silly reify mark deleted [
+191 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-darwin-x64"
+191 silly reify ]
+192 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-darwin-arm64
+193 silly reify mark deleted [
+193 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-darwin-arm64"
+193 silly reify ]
+194 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\lightningcss-android-arm64
+195 silly reify mark deleted [
+195 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\lightningcss-android-arm64"
+195 silly reify ]
+196 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\fsevents
+197 silly reify mark deleted [
+197 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\fsevents"
+197 silly reify ]
+198 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+199 silly reify mark deleted [
+199 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc"
+199 silly reify ]
+200 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+201 silly reify mark deleted [
+201 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc"
+201 silly reify ]
+202 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-openharmony-arm64
+203 silly reify mark deleted [
+203 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-openharmony-arm64"
+203 silly reify ]
+204 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-x64-musl
+205 silly reify mark deleted [
+205 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-x64-musl"
+205 silly reify ]
+206 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-x64-gnu
+207 silly reify mark deleted [
+207 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu"
+207 silly reify ]
+208 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+209 silly reify mark deleted [
+209 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu"
+209 silly reify ]
+210 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-riscv64-musl
+211 silly reify mark deleted [
+211 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl"
+211 silly reify ]
+212 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-riscv64-gnu
+213 silly reify mark deleted [
+213 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu"
+213 silly reify ]
+214 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+215 silly reify mark deleted [
+215 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu"
+215 silly reify ]
+216 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-loong64-musl
+217 silly reify mark deleted [
+217 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-loong64-musl"
+217 silly reify ]
+218 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-loong64-gnu
+219 silly reify mark deleted [
+219 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-loong64-gnu"
+219 silly reify ]
+220 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-arm64-musl
+221 silly reify mark deleted [
+221 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl"
+221 silly reify ]
+222 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+223 silly reify mark deleted [
+223 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu"
+223 silly reify ]
+224 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+225 silly reify mark deleted [
+225 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf"
+225 silly reify ]
+226 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+227 silly reify mark deleted [
+227 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf"
+227 silly reify ]
+228 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-freebsd-x64
+229 silly reify mark deleted [
+229 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-freebsd-x64"
+229 silly reify ]
+230 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-darwin-x64
+231 silly reify mark deleted [
+231 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-darwin-x64"
+231 silly reify ]
+232 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-darwin-arm64
+233 silly reify mark deleted [
+233 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-darwin-arm64"
+233 silly reify ]
+234 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-android-arm64
+235 silly reify mark deleted [
+235 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-android-arm64"
+235 silly reify ]
+236 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@unrs\resolver-binding-android-arm-eabi
+237 silly reify mark deleted [
+237 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@unrs\\resolver-binding-android-arm-eabi"
+237 silly reify ]
+238 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-win32-arm64
+239 silly reify mark deleted [
+239 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-win32-arm64"
+239 silly reify ]
+240 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-sunos-x64
+241 silly reify mark deleted [
+241 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-sunos-x64"
+241 silly reify ]
+242 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-openbsd-x64
+243 silly reify mark deleted [
+243 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-openbsd-x64"
+243 silly reify ]
+244 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-openbsd-arm64
+245 silly reify mark deleted [
+245 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-openbsd-arm64"
+245 silly reify ]
+246 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-netbsd-x64
+247 silly reify mark deleted [
+247 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-netbsd-x64"
+247 silly reify ]
+248 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-netbsd-arm64
+249 silly reify mark deleted [
+249 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-netbsd-arm64"
+249 silly reify ]
+250 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-linux-x64
+251 silly reify mark deleted [
+251 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-linux-x64"
+251 silly reify ]
+252 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-linux-s390x
+253 silly reify mark deleted [
+253 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-linux-s390x"
+253 silly reify ]
+254 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-linux-riscv64
+255 silly reify mark deleted [
+255 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-linux-riscv64"
+255 silly reify ]
+256 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-linux-ppc64
+257 silly reify mark deleted [
+257 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-linux-ppc64"
+257 silly reify ]
+258 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-linux-mips64el
+259 silly reify mark deleted [
+259 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-linux-mips64el"
+259 silly reify ]
+260 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-linux-loong64
+261 silly reify mark deleted [
+261 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-linux-loong64"
+261 silly reify ]
+262 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-linux-arm64
+263 silly reify mark deleted [
+263 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-linux-arm64"
+263 silly reify ]
+264 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-linux-arm
+265 silly reify mark deleted [
+265 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-linux-arm"
+265 silly reify ]
+266 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-freebsd-x64
+267 silly reify mark deleted [
+267 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-freebsd-x64"
+267 silly reify ]
+268 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-freebsd-arm64
+269 silly reify mark deleted [
+269 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-freebsd-arm64"
+269 silly reify ]
+270 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-darwin-x64
+271 silly reify mark deleted [
+271 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-darwin-x64"
+271 silly reify ]
+272 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-darwin-arm64
+273 silly reify mark deleted [
+273 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-darwin-arm64"
+273 silly reify ]
+274 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@typescript\typescript-aix-ppc64
+275 silly reify mark deleted [
+275 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@typescript\\typescript-aix-ppc64"
+275 silly reify ]
+276 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+277 silly reify mark deleted [
+277 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc"
+277 silly reify ]
+278 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-linux-x64-musl
+279 silly reify mark deleted [
+279 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-linux-x64-musl"
+279 silly reify ]
+280 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-linux-x64-gnu
+281 silly reify mark deleted [
+281 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu"
+281 silly reify ]
+282 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-linux-arm64-musl
+283 silly reify mark deleted [
+283 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl"
+283 silly reify ]
+284 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+285 silly reify mark deleted [
+285 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu"
+285 silly reify ]
+286 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+287 silly reify mark deleted [
+287 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf"
+287 silly reify ]
+288 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-freebsd-x64
+289 silly reify mark deleted [
+289 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-freebsd-x64"
+289 silly reify ]
+290 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-darwin-x64
+291 silly reify mark deleted [
+291 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-darwin-x64"
+291 silly reify ]
+292 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-darwin-arm64
+293 silly reify mark deleted [
+293 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-darwin-arm64"
+293 silly reify ]
+294 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tailwindcss\oxide-android-arm64
+295 silly reify mark deleted [
+295 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tailwindcss\\oxide-android-arm64"
+295 silly reify ]
+296 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-win32-arm64-msvc
+297 silly reify mark deleted [
+297 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-win32-arm64-msvc"
+297 silly reify ]
+298 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-wasm32-wasi
+299 silly reify mark deleted [
+299 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-wasm32-wasi"
+299 silly reify ]
+300 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@emnapi\core
+301 silly reify mark deleted [
+301 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@emnapi\\core"
+301 silly reify ]
+302 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@emnapi\runtime
+303 silly reify mark deleted [
+303 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@emnapi\\runtime"
+303 silly reify ]
+304 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@napi-rs\wasm-runtime
+305 silly reify mark deleted [
+305 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@napi-rs\\wasm-runtime"
+305 silly reify ]
+306 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@emnapi\wasi-threads
+307 silly reify mark deleted [
+307 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@emnapi\\wasi-threads"
+307 silly reify ]
+308 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\tslib
+309 silly reify mark deleted [
+309 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\tslib"
+309 silly reify ]
+310 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@tybys\wasm-util
+311 silly reify mark deleted [
+311 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@tybys\\wasm-util"
+311 silly reify ]
+312 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-openharmony-arm64
+313 silly reify mark deleted [
+313 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-openharmony-arm64"
+313 silly reify ]
+314 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-linux-x64-musl
+315 silly reify mark deleted [
+315 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-linux-x64-musl"
+315 silly reify ]
+316 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-linux-x64-gnu
+317 silly reify mark deleted [
+317 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-linux-x64-gnu"
+317 silly reify ]
+318 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-linux-s390x-gnu
+319 silly reify mark deleted [
+319 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-linux-s390x-gnu"
+319 silly reify ]
+320 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-linux-ppc64-gnu
+321 silly reify mark deleted [
+321 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-linux-ppc64-gnu"
+321 silly reify ]
+322 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-linux-arm64-musl
+323 silly reify mark deleted [
+323 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-linux-arm64-musl"
+323 silly reify ]
+324 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-linux-arm64-gnu
+325 silly reify mark deleted [
+325 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-linux-arm64-gnu"
+325 silly reify ]
+326 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-linux-arm-gnueabihf
+327 silly reify mark deleted [
+327 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf"
+327 silly reify ]
+328 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-freebsd-x64
+329 silly reify mark deleted [
+329 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-freebsd-x64"
+329 silly reify ]
+330 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-darwin-x64
+331 silly reify mark deleted [
+331 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-darwin-x64"
+331 silly reify ]
+332 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-darwin-arm64
+333 silly reify mark deleted [
+333 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-darwin-arm64"
+333 silly reify ]
+334 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-android-arm64
+335 silly reify mark deleted [
+335 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-android-arm64"
+335 silly reify ]
+336 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@rolldown\binding-android-arm-eabi
+337 silly reify mark deleted [
+337 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@rolldown\\binding-android-arm-eabi"
+337 silly reify ]
+338 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-win32-arm64
+339 silly reify mark deleted [
+339 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-win32-arm64"
+339 silly reify ]
+340 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-linux-x64-musl
+341 silly reify mark deleted [
+341 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-linux-x64-musl"
+341 silly reify ]
+342 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-linux-x64-glibc
+343 silly reify mark deleted [
+343 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-linux-x64-glibc"
+343 silly reify ]
+344 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-linux-arm64-musl
+345 silly reify mark deleted [
+345 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-linux-arm64-musl"
+345 silly reify ]
+346 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-linux-arm64-glibc
+347 silly reify mark deleted [
+347 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-linux-arm64-glibc"
+347 silly reify ]
+348 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-linux-arm-musl
+349 silly reify mark deleted [
+349 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-linux-arm-musl"
+349 silly reify ]
+350 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-linux-arm-glibc
+351 silly reify mark deleted [
+351 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-linux-arm-glibc"
+351 silly reify ]
+352 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-freebsd-x64
+353 silly reify mark deleted [
+353 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-freebsd-x64"
+353 silly reify ]
+354 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-darwin-x64
+355 silly reify mark deleted [
+355 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-darwin-x64"
+355 silly reify ]
+356 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-darwin-arm64
+357 silly reify mark deleted [
+357 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-darwin-arm64"
+357 silly reify ]
+358 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@parcel\watcher-android-arm64
+359 silly reify mark deleted [
+359 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@parcel\\watcher-android-arm64"
+359 silly reify ]
+360 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-win32-ia32-msvc
+361 silly reify mark deleted [
+361 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-win32-ia32-msvc"
+361 silly reify ]
+362 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-win32-arm64-msvc
+363 silly reify mark deleted [
+363 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-win32-arm64-msvc"
+363 silly reify ]
+364 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-openharmony-arm64
+365 silly reify mark deleted [
+365 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-openharmony-arm64"
+365 silly reify ]
+366 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-x64-musl
+367 silly reify mark deleted [
+367 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-x64-musl"
+367 silly reify ]
+368 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-x64-gnu
+369 silly reify mark deleted [
+369 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-x64-gnu"
+369 silly reify ]
+370 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-s390x-gnu
+371 silly reify mark deleted [
+371 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-s390x-gnu"
+371 silly reify ]
+372 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-riscv64-musl
+373 silly reify mark deleted [
+373 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-riscv64-musl"
+373 silly reify ]
+374 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-riscv64-gnu
+375 silly reify mark deleted [
+375 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-riscv64-gnu"
+375 silly reify ]
+376 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-ppc64-gnu
+377 silly reify mark deleted [
+377 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-ppc64-gnu"
+377 silly reify ]
+378 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-arm64-musl
+379 silly reify mark deleted [
+379 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-arm64-musl"
+379 silly reify ]
+380 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-arm64-gnu
+381 silly reify mark deleted [
+381 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-arm64-gnu"
+381 silly reify ]
+382 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-arm-musleabihf
+383 silly reify mark deleted [
+383 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-arm-musleabihf"
+383 silly reify ]
+384 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-linux-arm-gnueabihf
+385 silly reify mark deleted [
+385 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-linux-arm-gnueabihf"
+385 silly reify ]
+386 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-freebsd-x64
+387 silly reify mark deleted [
+387 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-freebsd-x64"
+387 silly reify ]
+388 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-darwin-x64
+389 silly reify mark deleted [
+389 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-darwin-x64"
+389 silly reify ]
+390 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-darwin-arm64
+391 silly reify mark deleted [
+391 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-darwin-arm64"
+391 silly reify ]
+392 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-android-arm64
+393 silly reify mark deleted [
+393 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-android-arm64"
+393 silly reify ]
+394 verbose reify failed optional dependency D:\Full Stack Apps\Assignment's\taskflowAssignment\client\node_modules\@oxlint\binding-android-arm-eabi
+395 silly reify mark deleted [
+395 silly reify   "D:\\Full Stack Apps\\Assignment's\\taskflowAssignment\\client\\node_modules\\@oxlint\\binding-android-arm-eabi"
+395 silly reify ]
+396 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.9.1.tgz 0ms (cache hit)
+397 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.4.tgz 0ms (cache hit)
+398 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.6.tgz 0ms (cache hit)
+399 http cache @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-2.2.0.tgz 0ms (cache hit)
+400 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-2.0.0-beta.2.tgz 0ms (cache hit)
+401 http cache @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-2.0.0-beta.2.tgz 0ms (cache hit)
+402 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 325ms
+403 silly audit report {
+403 silly audit report   deepmerge: [
+403 silly audit report     {
+403 silly audit report       id: 1243505,
+403 silly audit report       url: 'https://github.com/advisories/GHSA-gcqx-w48m-w2h4',
+403 silly audit report       title: 'deepmerge mergeObject() allows prototype poisoning of returned objects',
+403 silly audit report       severity: 'low',
+403 silly audit report       vulnerable_versions: '>=4.2.0 <=4.3.1',
+403 silly audit report       cwe: [Array],
+403 silly audit report       cvss: [Object]
+403 silly audit report     }
+403 silly audit report   ],
+403 silly audit report   glob: [
+403 silly audit report     {
+403 silly audit report       id: 1244013,
+403 silly audit report       url: 'https://github.com/advisories/GHSA-3g3m-2fjr-6pw4',
+403 silly audit report       title: 'Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal',
+403 silly audit report       severity: 'moderate',
+403 silly audit report       vulnerable_versions: '>=9.0.0 <=14.0.1',
+403 silly audit report       cwe: [Array],
+403 silly audit report       cvss: [Object]
+403 silly audit report     }
+403 silly audit report   ],
+403 silly audit report   minimatch: [
+403 silly audit report     {
+403 silly audit report       id: 1244623,
+403 silly audit report       url: 'https://github.com/advisories/GHSA-g3hv-75wg-m249',
+403 silly audit report       title: 'minimatch has potential denial of service via globparts amplification',
+403 silly audit report       severity: 'moderate',
+403 silly audit report       vulnerable_versions: '>=7.0.0 <11.0.1',
+403 silly audit report       cwe: [Array],
+403 silly audit report       cvss: [Object]
+403 silly audit report     }
+403 silly audit report   ]
+403 silly audit report }
+404 silly packumentCache corgi:https://registry.npmjs.org/deepmerge cache-miss
+405 silly packumentCache corgi:https://registry.npmjs.org/glob cache-miss
+406 silly packumentCache corgi:https://registry.npmjs.org/minimatch cache-miss
+407 http fetch GET 200 https://registry.npmjs.org/deepmerge 185ms (cache revalidated)
+408 silly packumentCache corgi:https://registry.npmjs.org/deepmerge set size:46846 disposed:false
+409 http fetch GET 200 https://registry.npmjs.org/glob 338ms (cache revalidated)
+410 silly packumentCache corgi:https://registry.npmjs.org/glob set size:207786 disposed:false
+411 http fetch GET 200 https://registry.npmjs.org/minimatch 343ms (cache revalidated)
+412 silly packumentCache corgi:https://registry.npmjs.org/minimatch set size:178778 disposed:false
+413 silly packumentCache corgi:https://registry.npmjs.org/jest-config cache-miss
+414 http cache https://registry.npmjs.org/jest-config 75ms (cache hit)
+415 silly packumentCache corgi:https://registry.npmjs.org/jest-config set size:535210 disposed:false
+416 silly packumentCache corgi:https://registry.npmjs.org/@jest%2freporters cache-miss
+417 silly packumentCache corgi:https://registry.npmjs.org/jest-runtime cache-miss
+418 silly packumentCache corgi:https://registry.npmjs.org/test-exclude cache-miss
+419 http cache https://registry.npmjs.org/@jest%2freporters 134ms (cache hit)
+420 silly packumentCache corgi:https://registry.npmjs.org/@jest%2freporters set size:383376 disposed:false
+421 http cache https://registry.npmjs.org/jest-runtime 152ms (cache hit)
+422 silly packumentCache corgi:https://registry.npmjs.org/jest-runtime set size:574577 disposed:false
+423 http cache https://registry.npmjs.org/test-exclude 160ms (cache hit)
+424 silly packumentCache corgi:https://registry.npmjs.org/test-exclude set size:42527 disposed:false
+425 silly packumentCache corgi:https://registry.npmjs.org/@jest%2fcore cache-miss
+426 silly packumentCache corgi:https://registry.npmjs.org/jest-cli cache-miss
+427 http cache https://registry.npmjs.org/jest-cli 13ms (cache hit)
+428 silly packumentCache corgi:https://registry.npmjs.org/jest-cli set size:645722 disposed:false
+429 http cache https://registry.npmjs.org/@jest%2fcore 397ms (cache hit)
+430 silly packumentCache corgi:https://registry.npmjs.org/@jest%2fcore set size:393984 disposed:false
+431 silly packumentCache corgi:https://registry.npmjs.org/jest-circus cache-miss
+432 silly packumentCache corgi:https://registry.npmjs.org/jest-runner cache-miss
+433 http cache https://registry.npmjs.org/jest-circus 62ms (cache hit)
+434 silly packumentCache corgi:https://registry.npmjs.org/jest-circus set size:457003 disposed:false
+435 http cache https://registry.npmjs.org/jest-runner 71ms (cache hit)
+436 silly packumentCache corgi:https://registry.npmjs.org/jest-runner set size:455255 disposed:false
+437 silly packumentCache corgi:https://registry.npmjs.org/babel-plugin-istanbul cache-miss
+438 http cache https://registry.npmjs.org/babel-plugin-istanbul 13ms (cache hit)
+439 silly packumentCache corgi:https://registry.npmjs.org/babel-plugin-istanbul set size:51556 disposed:false
+440 silly packumentCache corgi:https://registry.npmjs.org/jest cache-miss
+441 http cache https://registry.npmjs.org/jest 75ms (cache hit)
+442 silly packumentCache corgi:https://registry.npmjs.org/jest set size:411702 disposed:false
+443 silly packumentCache corgi:https://registry.npmjs.org/@jest%2ftransform cache-miss
+444 silly packumentCache corgi:https://registry.npmjs.org/babel-jest cache-miss
+445 http cache https://registry.npmjs.org/babel-jest 17ms (cache hit)
+446 silly packumentCache corgi:https://registry.npmjs.org/babel-jest set size:372952 disposed:false
+447 http cache https://registry.npmjs.org/@jest%2ftransform 25ms (cache hit)
+448 silly packumentCache corgi:https://registry.npmjs.org/@jest%2ftransform set size:296252 disposed:false
+449 silly packumentCache corgi:https://registry.npmjs.org/jest-snapshot cache-miss
+450 http cache https://registry.npmjs.org/jest-snapshot 18ms (cache hit)
+451 silly packumentCache corgi:https://registry.npmjs.org/jest-snapshot set size:476255 disposed:false
+452 silly packumentCache corgi:https://registry.npmjs.org/@jest%2fexpect cache-miss
+453 silly packumentCache corgi:https://registry.npmjs.org/jest-resolve-dependencies cache-miss
+454 http cache https://registry.npmjs.org/jest-resolve-dependencies 23ms (cache hit)
+455 silly packumentCache corgi:https://registry.npmjs.org/jest-resolve-dependencies set size:352322 disposed:false
+456 http cache https://registry.npmjs.org/@jest%2fexpect 30ms (cache hit)
+457 silly packumentCache corgi:https://registry.npmjs.org/@jest%2fexpect set size:92628 disposed:false
+458 silly packumentCache corgi:https://registry.npmjs.org/@jest%2fglobals cache-miss
+459 http cache https://registry.npmjs.org/@jest%2fglobals 37ms (cache hit)
+460 silly packumentCache corgi:https://registry.npmjs.org/@jest%2fglobals set size:177651 disposed:false
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD
+467 silly ADD
+468 silly ADD
+469 silly ADD
+470 silly ADD
+471 silly ADD
+472 silly ADD
+473 silly ADD
+474 silly ADD
+475 silly ADD
+476 silly ADD
+477 silly ADD
+478 silly ADD
+479 silly ADD
+480 silly ADD
+481 silly ADD
+482 silly ADD
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 silly ADD
+489 silly ADD
+490 silly ADD
+491 silly ADD
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD
+499 silly ADD
+500 silly ADD
+501 silly ADD
+502 silly ADD
+503 silly ADD
+504 silly ADD
+505 silly ADD
+506 silly ADD
+507 silly ADD
+508 silly ADD
+509 silly ADD
+510 silly ADD
+511 silly ADD
+512 silly ADD
+513 silly ADD
+514 silly ADD
+515 silly ADD
+516 silly ADD
+517 silly ADD
+518 silly ADD
+519 silly ADD
+520 silly ADD
+521 silly ADD
+522 silly ADD
+523 silly ADD
+524 silly ADD
+525 silly ADD
+526 silly ADD
+527 silly ADD
+528 silly ADD
+529 silly ADD
+530 silly ADD
+531 silly ADD
+532 silly ADD
+533 silly ADD
+534 silly ADD
+535 silly ADD
+536 silly ADD
+537 silly ADD
+538 silly ADD
+539 silly ADD
+540 silly ADD
+541 silly ADD
+542 silly ADD
+543 silly ADD
+544 silly ADD
+545 silly ADD
+546 silly ADD
+547 silly ADD
+548 silly ADD
+549 silly ADD
+550 silly ADD
+551 silly ADD
+552 silly ADD
+553 silly ADD
+554 silly ADD
+555 silly ADD
+556 silly ADD
+557 silly ADD
+558 silly ADD
+559 silly ADD
+560 silly ADD
+561 silly ADD
+562 silly ADD
+563 silly ADD
+564 silly ADD
+565 silly ADD
+566 silly ADD
+567 silly ADD
+568 silly ADD
+569 silly ADD
+570 silly ADD
+571 verbose cwd D:\Full Stack Apps\Assignment's\taskflowAssignment\client
+572 verbose os Windows_NT 10.0.19045
+573 verbose node v22.23.3
+574 verbose npm  v10.9.9
+575 verbose exit 0
+576 info ok

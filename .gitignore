@@ -1,0 +1,8 @@
+.gradle-cache/
+**/.gradle/
+**/build/
+**/node_modules/
+**/dist/
+.env
+.env.*
+!.env.example
